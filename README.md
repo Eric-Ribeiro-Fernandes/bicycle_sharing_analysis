@@ -2,7 +2,9 @@
 
 O projeto tem a finalidade de realizar uma análise exploratória dos dados de compartilhamento de bicicleta, na cidade de Seattle, e gerar insights tanto para o time de marketing quanto para o time de operações.
 
-Para ter uma melhor ideia da localização e performance das estações de bicicleta foi utilizado a biblioteca Folium para plotar um mapa com informações relevates para os times sobre cada estação. Os mapas estão na pasta do projeto em formato HTML.
+Para ter uma melhor ideia da localização e performance das estações de bicicleta foi utilizado a biblioteca Folium para plotar um mapa com informações relevates para os times sobre cada estação. Os mapas estão na pasta do projeto em formato HTML. 
+
+BAIXE O MAPA E RODE O ARQUIVO.
 
 Na pasta também contém um arquivo em PDF aonde há uma apresentação sucinta dos achados mais relevantes.
 
