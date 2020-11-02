@@ -1,0 +1,1977 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_12bf979a261f46459feaeedc2ac9e404 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_12bf979a261f46459feaeedc2ac9e404" ></div>
+        
+</body>
+<script>    
+    
+            var map_12bf979a261f46459feaeedc2ac9e404 = L.map(
+                "map_12bf979a261f46459feaeedc2ac9e404",
+                {
+                    center: [47.618418, -122.35096399999999],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1780fbc3cb184cc4bb39f91ef59decb3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var marker_26334a7ff5264f4d8f27b4d571b3ecb7 = L.marker(
+                [47.618418, -122.35096399999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_9885dcbe405a49c99cbe37ba82c0eb7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_26334a7ff5264f4d8f27b4d571b3ecb7.setIcon(icon_9885dcbe405a49c99cbe37ba82c0eb7f);
+        
+    
+        var popup_01429a0aace840b5b2013445de6691c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_639c73f6c52d4c47a2337209d54798fc = $(`<div id="html_639c73f6c52d4c47a2337209d54798fc" style="width: 100.0%; height: 100.0%;"><h4>BT&#8209;01</h4>  <hr>  <p>Alugueis: 9392 Depositos: 9202</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;CBD&#8209;13 2&#8209;WF&#8209;04 3&#8209;WF&#8209;01 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CBD&#8209;13 2&#8209;BT&#8209;01 3&#8209;CBD&#8209;06</p></div>`)[0];
+            popup_01429a0aace840b5b2013445de6691c9.setContent(html_639c73f6c52d4c47a2337209d54798fc);
+        
+
+        marker_26334a7ff5264f4d8f27b4d571b3ecb7.bindPopup(popup_01429a0aace840b5b2013445de6691c9)
+        ;
+
+        
+    
+    
+            marker_26334a7ff5264f4d8f27b4d571b3ecb7.bindTooltip(
+                `<div>
+                     ['3rd Ave & Broad St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa9a3c0b52d346909516e0f006c908d1 = L.marker(
+                [47.615829, -122.348564],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_8d3807d121f74708873a934a59fac728 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_fa9a3c0b52d346909516e0f006c908d1.setIcon(icon_8d3807d121f74708873a934a59fac728);
+        
+    
+        var popup_a8cff51129b84faca6c6449f7466f359 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc675ae9bc23465c8ac013000cd1e3d4 = $(`<div id="html_dc675ae9bc23465c8ac013000cd1e3d4" style="width: 100.0%; height: 100.0%;"><h4>BT&#8209;03</h4>  <hr>  <p>Alugueis: 6568 Depositos: 5135</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;CBD&#8209;13 2&#8209;SLU&#8209;04 3&#8209;SLU&#8209;15 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;SLU&#8209;04 2&#8209;CBD&#8209;13 3&#8209;CH&#8209;07</p></div>`)[0];
+            popup_a8cff51129b84faca6c6449f7466f359.setContent(html_dc675ae9bc23465c8ac013000cd1e3d4);
+        
+
+        marker_fa9a3c0b52d346909516e0f006c908d1.bindPopup(popup_a8cff51129b84faca6c6449f7466f359)
+        ;
+
+        
+    
+    
+            marker_fa9a3c0b52d346909516e0f006c908d1.bindTooltip(
+                `<div>
+                     ['2nd Ave & Vine St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c63e383192a4c55a309438d8b183d19 = L.marker(
+                [47.616094, -122.341102],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_fd03ef000edd4d2a85160b41bd0fbc99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_6c63e383192a4c55a309438d8b183d19.setIcon(icon_fd03ef000edd4d2a85160b41bd0fbc99);
+        
+    
+        var popup_7f0397a8dcd24eb58ffc77bec508ae03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a8a4433d0324edb9234557417c85983 = $(`<div id="html_8a8a4433d0324edb9234557417c85983" style="width: 100.0%; height: 100.0%;"><h4>BT&#8209;04</h4>  <hr>  <p>Alugueis: 3819 Depositos: 3326</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;DPD&#8209;01 2&#8209;CBD&#8209;05 3&#8209;SLU&#8209;02 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;DPD&#8209;01 2&#8209;CH&#8209;07 3&#8209;CBD&#8209;05</p></div>`)[0];
+            popup_7f0397a8dcd24eb58ffc77bec508ae03.setContent(html_8a8a4433d0324edb9234557417c85983);
+        
+
+        marker_6c63e383192a4c55a309438d8b183d19.bindPopup(popup_7f0397a8dcd24eb58ffc77bec508ae03)
+        ;
+
+        
+    
+    
+            marker_6c63e383192a4c55a309438d8b183d19.bindTooltip(
+                `<div>
+                     ['6th Ave & Blanchard St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f84dd75ab54144bd87c1bd3824b96b56 = L.marker(
+                [47.61311, -122.34420800000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_32538b5a40db483b92117aff0f96defe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_f84dd75ab54144bd87c1bd3824b96b56.setIcon(icon_32538b5a40db483b92117aff0f96defe);
+        
+    
+        var popup_48cf30a8c6364e8da258af58cf10e51b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_065460ec1033492bbcf8175e0bba985f = $(`<div id="html_065460ec1033492bbcf8175e0bba985f" style="width: 100.0%; height: 100.0%;"><h4>BT&#8209;05</h4>  <hr>  <p>Alugueis: 4986 Depositos: 5031</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;19 2&#8209;BT&#8209;01 3&#8209;EL&#8209;03 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;BT&#8209;01 2&#8209;SLU&#8209;19 3&#8209;EL&#8209;03</p></div>`)[0];
+            popup_48cf30a8c6364e8da258af58cf10e51b.setContent(html_065460ec1033492bbcf8175e0bba985f);
+        
+
+        marker_f84dd75ab54144bd87c1bd3824b96b56.bindPopup(popup_48cf30a8c6364e8da258af58cf10e51b)
+        ;
+
+        
+    
+    
+            marker_f84dd75ab54144bd87c1bd3824b96b56.bindTooltip(
+                `<div>
+                     ['2nd Ave & Blanchard St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ced8c5a09ea4897bb3ba09b01649125 = L.marker(
+                [47.610731, -122.332447],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_bfccad8500314c4594b2bb6341a04553 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_9ced8c5a09ea4897bb3ba09b01649125.setIcon(icon_bfccad8500314c4594b2bb6341a04553);
+        
+    
+        var popup_6771a3b339a2418db631027b89bc4737 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb3054c5610642bc9610fa9aa4494e92 = $(`<div id="html_bb3054c5610642bc9610fa9aa4494e92" style="width: 100.0%; height: 100.0%;"><h4>CBD&#8209;03</h4>  <hr>  <p>Alugueis: 4210 Depositos: 5296</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;CBD&#8209;03 2&#8209;SLU&#8209;01 3&#8209;PS&#8209;04 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;05 2&#8209;CH&#8209;01 3&#8209;CH&#8209;07</p></div>`)[0];
+            popup_6771a3b339a2418db631027b89bc4737.setContent(html_bb3054c5610642bc9610fa9aa4494e92);
+        
+
+        marker_9ced8c5a09ea4897bb3ba09b01649125.bindPopup(popup_6771a3b339a2418db631027b89bc4737)
+        ;
+
+        
+    
+    
+            marker_9ced8c5a09ea4897bb3ba09b01649125.bindTooltip(
+                `<div>
+                     ['7th Ave & Union St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5b602ee26864c8b84fef0f4ad992b46 = L.marker(
+                [47.609221000000005, -122.335596],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_8973c4c1f9f8445abf894c7e09b6e496 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_b5b602ee26864c8b84fef0f4ad992b46.setIcon(icon_8973c4c1f9f8445abf894c7e09b6e496);
+        
+    
+        var popup_b291ce021add47eb895db28ae7aab727 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61c77727e5cb48eca46724b352b3bd54 = $(`<div id="html_61c77727e5cb48eca46724b352b3bd54" style="width: 100.0%; height: 100.0%;"><h4>CBD&#8209;04</h4>  <hr>  <p>Alugueis: 2693 Depositos: 2819</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;PS&#8209;04 2&#8209;SLU&#8209;07 3&#8209;SLU&#8209;19 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;07 2&#8209;SLU&#8209;07 3&#8209;CH&#8209;03</p></div>`)[0];
+            popup_b291ce021add47eb895db28ae7aab727.setContent(html_61c77727e5cb48eca46724b352b3bd54);
+        
+
+        marker_b5b602ee26864c8b84fef0f4ad992b46.bindPopup(popup_b291ce021add47eb895db28ae7aab727)
+        ;
+
+        
+    
+    
+            marker_b5b602ee26864c8b84fef0f4ad992b46.bindTooltip(
+                `<div>
+                     ['Union St & 4th Ave']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_437cd16a36ef4ceaad721c7858fc26c8 = L.marker(
+                [47.604058, -122.3358],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_25f0b4292159472296c85ca9089c388d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_437cd16a36ef4ceaad721c7858fc26c8.setIcon(icon_25f0b4292159472296c85ca9089c388d);
+        
+    
+        var popup_fa220a79debe474fb4ecc582f4982e36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f1fe6eba63e4aadb261f1fd559db75f = $(`<div id="html_8f1fe6eba63e4aadb261f1fd559db75f" style="width: 100.0%; height: 100.0%;"><h4>CBD&#8209;05</h4>  <hr>  <p>Alugueis: 4540 Depositos: 7171</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;WF&#8209;01 2&#8209;CBD&#8209;13 3&#8209;CBD&#8209;05 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;WF&#8209;01 2&#8209;CBD&#8209;13 3&#8209;SLU&#8209;15</p></div>`)[0];
+            popup_fa220a79debe474fb4ecc582f4982e36.setContent(html_8f1fe6eba63e4aadb261f1fd559db75f);
+        
+
+        marker_437cd16a36ef4ceaad721c7858fc26c8.bindPopup(popup_fa220a79debe474fb4ecc582f4982e36)
+        ;
+
+        
+    
+    
+            marker_437cd16a36ef4ceaad721c7858fc26c8.bindTooltip(
+                `<div>
+                     ['1st Ave & Marion St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d956ec5a2c3745ee8956de80f8d50aaa = L.marker(
+                [47.60595, -122.33576799999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_46302aecbbf14577958f0db5085da8e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_d956ec5a2c3745ee8956de80f8d50aaa.setIcon(icon_46302aecbbf14577958f0db5085da8e5);
+        
+    
+        var popup_983ba9d17fce4af686eb8c0d3512a597 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d32963eb2380490080a9e96627623e26 = $(`<div id="html_d32963eb2380490080a9e96627623e26" style="width: 100.0%; height: 100.0%;"><h4>CBD&#8209;06</h4>  <hr>  <p>Alugueis: 4336 Depositos: 6868</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;BT&#8209;01 2&#8209;PS&#8209;04 3&#8209;PS&#8209;05 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;BT&#8209;01 2&#8209;CH&#8209;12 3&#8209;CH&#8209;08</p></div>`)[0];
+            popup_983ba9d17fce4af686eb8c0d3512a597.setContent(html_d32963eb2380490080a9e96627623e26);
+        
+
+        marker_d956ec5a2c3745ee8956de80f8d50aaa.bindPopup(popup_983ba9d17fce4af686eb8c0d3512a597)
+        ;
+
+        
+    
+    
+            marker_d956ec5a2c3745ee8956de80f8d50aaa.bindTooltip(
+                `<div>
+                     ['2nd Ave & Spring St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8473f6ae973f4fa0a9a9a782f76c9203 = L.marker(
+                [47.603509, -122.330409],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_6cc22faaab924934bd9923da92e2724c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8473f6ae973f4fa0a9a9a782f76c9203.setIcon(icon_6cc22faaab924934bd9923da92e2724c);
+        
+    
+        var popup_588caeecb35c4e03ac5734fbe3b2af12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10f4cc0d22d84d2ba247302ca0fcef9b = $(`<div id="html_10f4cc0d22d84d2ba247302ca0fcef9b" style="width: 100.0%; height: 100.0%;"><h4>CBD&#8209;07</h4>  <hr>  <p>Alugueis: 2882 Depositos: 3135</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;ID&#8209;04 2&#8209;BT&#8209;01 3&#8209;PS&#8209;05 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;15 2&#8209;ID&#8209;04 3&#8209;CH&#8209;06</p></div>`)[0];
+            popup_588caeecb35c4e03ac5734fbe3b2af12.setContent(html_10f4cc0d22d84d2ba247302ca0fcef9b);
+        
+
+        marker_8473f6ae973f4fa0a9a9a782f76c9203.bindPopup(popup_588caeecb35c4e03ac5734fbe3b2af12)
+        ;
+
+        
+    
+    
+            marker_8473f6ae973f4fa0a9a9a782f76c9203.bindTooltip(
+                `<div>
+                     ['City Hall / 4th Ave & James St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa9829c1354b46348b020a71e88e6ca1 = L.marker(
+                [47.610184999999994, -122.33964099999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_78c82829f66348c9b7f1f508f3233914 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_aa9829c1354b46348b020a71e88e6ca1.setIcon(icon_78c82829f66348c9b7f1f508f3233914);
+        
+    
+        var popup_30d071ed5ca04904bf9c46033ea65b3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_991b5aac995e42f886277fdb330584c4 = $(`<div id="html_991b5aac995e42f886277fdb330584c4" style="width: 100.0%; height: 100.0%;"><h4>CBD&#8209;13</h4>  <hr>  <p>Alugueis: 8198 Depositos: 11408</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;BT&#8209;01 2&#8209;CBD&#8209;05 3&#8209;PS&#8209;04 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;BT&#8209;01 2&#8209;BT&#8209;03 3&#8209;CH&#8209;07</p></div>`)[0];
+            popup_30d071ed5ca04904bf9c46033ea65b3e.setContent(html_991b5aac995e42f886277fdb330584c4);
+        
+
+        marker_aa9829c1354b46348b020a71e88e6ca1.bindPopup(popup_30d071ed5ca04904bf9c46033ea65b3e)
+        ;
+
+        
+    
+    
+            marker_aa9829c1354b46348b020a71e88e6ca1.bindTooltip(
+                `<div>
+                     ['2nd Ave & Pine St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dab467cd1e2346d8bc737d10ef63e20c = L.marker(
+                [47.602103, -122.316923],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_6bcb687486d04fcd8899cbc978e3bd66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_dab467cd1e2346d8bc737d10ef63e20c.setIcon(icon_6bcb687486d04fcd8899cbc978e3bd66);
+        
+    
+        var popup_e1b93ed26fc9425db243b5a16d28efc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbd1e993a0ff4e32a3631001e5be480d = $(`<div id="html_dbd1e993a0ff4e32a3631001e5be480d" style="width: 100.0%; height: 100.0%;"><h4>CD&#8209;01</h4>  <hr>  <p>Alugueis: 958 Depositos: 868</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;ID&#8209;04 2&#8209;PS&#8209;04 3&#8209;CH&#8209;08 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;02 2&#8209;CH&#8209;08 3&#8209;FH&#8209;04</p></div>`)[0];
+            popup_e1b93ed26fc9425db243b5a16d28efc5.setContent(html_dbd1e993a0ff4e32a3631001e5be480d);
+        
+
+        marker_dab467cd1e2346d8bc737d10ef63e20c.bindPopup(popup_e1b93ed26fc9425db243b5a16d28efc5)
+        ;
+
+        
+    
+    
+            marker_dab467cd1e2346d8bc737d10ef63e20c.bindTooltip(
+                `<div>
+                     ['12th Ave & E Yesler Way']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eaf6fce8fb4d4ea9b76fefc11a45ea63 = L.marker(
+                [47.618633, -122.325249],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_8b0fb09cdfa54282a94a5d482437b47e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_eaf6fce8fb4d4ea9b76fefc11a45ea63.setIcon(icon_8b0fb09cdfa54282a94a5d482437b47e);
+        
+    
+        var popup_3bd62dee1ff34c61b3557c5e2b0b82cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a0dc95be6244fe2bb213a54cb6ed87f = $(`<div id="html_4a0dc95be6244fe2bb213a54cb6ed87f" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;01</h4>  <hr>  <p>Alugueis: 5441 Depositos: 3201</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;PS&#8209;04 2&#8209;SLU&#8209;16 3&#8209;CBD&#8209;03 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;03 2&#8209;CH&#8209;02 3&#8209;CH&#8209;05</p></div>`)[0];
+            popup_3bd62dee1ff34c61b3557c5e2b0b82cf.setContent(html_4a0dc95be6244fe2bb213a54cb6ed87f);
+        
+
+        marker_eaf6fce8fb4d4ea9b76fefc11a45ea63.bindPopup(popup_3bd62dee1ff34c61b3557c5e2b0b82cf)
+        ;
+
+        
+    
+    
+            marker_eaf6fce8fb4d4ea9b76fefc11a45ea63.bindTooltip(
+                `<div>
+                     ['Summit Ave & E Denny Way']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c00ec852f30449a780e1d0ee8fad3552 = L.marker(
+                [47.622063, -122.321251],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_d73ce7445e8b4e3483bbb42c0175b612 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_c00ec852f30449a780e1d0ee8fad3552.setIcon(icon_d73ce7445e8b4e3483bbb42c0175b612);
+        
+    
+        var popup_9f8e625c921e48ee8fda519be6b63887 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6caf44321afa48cdb8dfe1c43fb4aa40 = $(`<div id="html_6caf44321afa48cdb8dfe1c43fb4aa40" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;02</h4>  <hr>  <p>Alugueis: 7685 Depositos: 4538</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;CH&#8209;08 2&#8209;SLU&#8209;16 3&#8209;CH&#8209;09 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;07 2&#8209;CH&#8209;09 3&#8209;CH&#8209;08</p></div>`)[0];
+            popup_9f8e625c921e48ee8fda519be6b63887.setContent(html_6caf44321afa48cdb8dfe1c43fb4aa40);
+        
+
+        marker_c00ec852f30449a780e1d0ee8fad3552.bindPopup(popup_9f8e625c921e48ee8fda519be6b63887)
+        ;
+
+        
+    
+    
+            marker_c00ec852f30449a780e1d0ee8fad3552.bindTooltip(
+                `<div>
+                     ['E Harrison St & Broadway Ave E']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_719c7343c58f4b5ab3ce2ab885b3f387 = L.marker(
+                [47.623367, -122.32527900000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_d305fdc29df14141a2d79c12b25f51d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_719c7343c58f4b5ab3ce2ab885b3f387.setIcon(icon_d305fdc29df14141a2d79c12b25f51d8);
+        
+    
+        var popup_e56df267403541b1bfa61a4d6a1e8090 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69bdb314825c4a98b037f40470865397 = $(`<div id="html_69bdb314825c4a98b037f40470865397" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;03</h4>  <hr>  <p>Alugueis: 5241 Depositos: 2735</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;16 2&#8209;CH&#8209;01 3&#8209;SLU&#8209;04 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;01 2&#8209;CH&#8209;12 3&#8209;CH&#8209;02</p></div>`)[0];
+            popup_e56df267403541b1bfa61a4d6a1e8090.setContent(html_69bdb314825c4a98b037f40470865397);
+        
+
+        marker_719c7343c58f4b5ab3ce2ab885b3f387.bindPopup(popup_e56df267403541b1bfa61a4d6a1e8090)
+        ;
+
+        
+    
+    
+            marker_719c7343c58f4b5ab3ce2ab885b3f387.bindTooltip(
+                `<div>
+                     ['Summit Ave E & E Republican St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96a181203b784ef9bc2f58829a4fa1bf = L.marker(
+                [47.620712, -122.31280500000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_af67a02f5fd142eca7a375d61f015853 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_96a181203b784ef9bc2f58829a4fa1bf.setIcon(icon_af67a02f5fd142eca7a375d61f015853);
+        
+    
+        var popup_3e6db345078b4ed687e3baec2999d7ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2fa7bccb4854592b12addbceded2499 = $(`<div id="html_a2fa7bccb4854592b12addbceded2499" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;05</h4>  <hr>  <p>Alugueis: 6206 Depositos: 1849</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;CH&#8209;08 2&#8209;CH&#8209;07 3&#8209;CH&#8209;02 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;07 2&#8209;CH&#8209;08 3&#8209;CH&#8209;05</p></div>`)[0];
+            popup_3e6db345078b4ed687e3baec2999d7ec.setContent(html_a2fa7bccb4854592b12addbceded2499);
+        
+
+        marker_96a181203b784ef9bc2f58829a4fa1bf.bindPopup(popup_3e6db345078b4ed687e3baec2999d7ec)
+        ;
+
+        
+    
+    
+            marker_96a181203b784ef9bc2f58829a4fa1bf.bindTooltip(
+                `<div>
+                     ['15th Ave E & E Thomas St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf0ef908a92d48ab9c436b1c6274c480 = L.marker(
+                [47.618549, -122.31701699999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_8a9683a816f94f408ac20fd7db579645 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_cf0ef908a92d48ab9c436b1c6274c480.setIcon(icon_8a9683a816f94f408ac20fd7db579645);
+        
+    
+        var popup_40686ac7b9a84ccf8e36198ee8a282f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a7e7056bfca443d8b635e611ff0ac94 = $(`<div id="html_6a7e7056bfca443d8b635e611ff0ac94" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;06</h4>  <hr>  <p>Alugueis: 3204 Depositos: 938</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;16 2&#8209;CH&#8209;08 3&#8209;CBD&#8209;07 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;15 2&#8209;CH&#8209;08 3&#8209;CH&#8209;02</p></div>`)[0];
+            popup_40686ac7b9a84ccf8e36198ee8a282f8.setContent(html_6a7e7056bfca443d8b635e611ff0ac94);
+        
+
+        marker_cf0ef908a92d48ab9c436b1c6274c480.bindPopup(popup_40686ac7b9a84ccf8e36198ee8a282f8)
+        ;
+
+        
+    
+    
+            marker_cf0ef908a92d48ab9c436b1c6274c480.bindTooltip(
+                `<div>
+                     ['12th Ave & E Denny Way']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ae5d18de532491fac49180ce8068555 = L.marker(
+                [47.61533, -122.311752],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_a88d855f6161477d9d404bc13738c651 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_0ae5d18de532491fac49180ce8068555.setIcon(icon_a88d855f6161477d9d404bc13738c651);
+        
+    
+        var popup_bd6d967434214453ab29115434ba1d66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceed1346e85d4c0b8709a1cc5ea9716b = $(`<div id="html_ceed1346e85d4c0b8709a1cc5ea9716b" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;07</h4>  <hr>  <p>Alugueis: 9466 Depositos: 2695</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;16 2&#8209;CH&#8209;02 3&#8209;SLU&#8209;01 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;05 2&#8209;CH&#8209;02 3&#8209;CH&#8209;07</p></div>`)[0];
+            popup_bd6d967434214453ab29115434ba1d66.setContent(html_ceed1346e85d4c0b8709a1cc5ea9716b);
+        
+
+        marker_0ae5d18de532491fac49180ce8068555.bindPopup(popup_bd6d967434214453ab29115434ba1d66)
+        ;
+
+        
+    
+    
+            marker_0ae5d18de532491fac49180ce8068555.bindTooltip(
+                `<div>
+                     ['E Pine St & 16th Ave']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55a69d74c0c0499dbae6161bb70d8648 = L.marker(
+                [47.615486, -122.31824499999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_2352318baf204ee0a1d5c7d16043a536 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_55a69d74c0c0499dbae6161bb70d8648.setIcon(icon_2352318baf204ee0a1d5c7d16043a536);
+        
+    
+        var popup_64328c83309a4cbda236a84d41a1ef7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceb7873e18a949fcb6c50f8eb956c25d = $(`<div id="html_ceb7873e18a949fcb6c50f8eb956c25d" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;08</h4>  <hr>  <p>Alugueis: 7690 Depositos: 5067</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;CH&#8209;02 2&#8209;CH&#8209;12 3&#8209;FH&#8209;04 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;05 2&#8209;CH&#8209;02 3&#8209;CH&#8209;15</p></div>`)[0];
+            popup_64328c83309a4cbda236a84d41a1ef7c.setContent(html_ceb7873e18a949fcb6c50f8eb956c25d);
+        
+
+        marker_55a69d74c0c0499dbae6161bb70d8648.bindPopup(popup_64328c83309a4cbda236a84d41a1ef7c)
+        ;
+
+        
+    
+    
+            marker_55a69d74c0c0499dbae6161bb70d8648.bindTooltip(
+                `<div>
+                     ['Cal Anderson Park / 11th Ave & Pine St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bba5624420d84e35a965a50931c0ddfe = L.marker(
+                [47.615517, -122.322083],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_026f95e8bc10465b9f08abf567ce7f30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_bba5624420d84e35a965a50931c0ddfe.setIcon(icon_026f95e8bc10465b9f08abf567ce7f30);
+        
+    
+        var popup_19dc586348d544d09c762ffc25749294 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97f28097d0884cbd824796693cb91957 = $(`<div id="html_97f28097d0884cbd824796693cb91957" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;09</h4>  <hr>  <p>Alugueis: 4517 Depositos: 2974</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;CH&#8209;02 2&#8209;SLU&#8209;16 3&#8209;CBD&#8209;13 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;02 2&#8209;CH&#8209;07 3&#8209;CH&#8209;05</p></div>`)[0];
+            popup_19dc586348d544d09c762ffc25749294.setContent(html_97f28097d0884cbd824796693cb91957);
+        
+
+        marker_bba5624420d84e35a965a50931c0ddfe.bindPopup(popup_19dc586348d544d09c762ffc25749294)
+        ;
+
+        
+    
+    
+            marker_bba5624420d84e35a965a50931c0ddfe.bindTooltip(
+                `<div>
+                     ['Harvard Ave & E Pine St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5b4ff7fda6a4d3592ba2fb0af17c408 = L.marker(
+                [47.615456, -122.326729],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_add2eed70ade42ef9ddcfc2573c4b7fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_b5b4ff7fda6a4d3592ba2fb0af17c408.setIcon(icon_add2eed70ade42ef9ddcfc2573c4b7fd);
+        
+    
+        var popup_fdcac2b21fff49289534c5f44a97ad21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8892eab493ba44b7afff13438b1d0a53 = $(`<div id="html_8892eab493ba44b7afff13438b1d0a53" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;12</h4>  <hr>  <p>Alugueis: 4826 Depositos: 3424</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;CBD&#8209;06 2&#8209;SLU&#8209;07 3&#8209;PS&#8209;04 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;08 2&#8209;CH&#8209;02 3&#8209;CH&#8209;05</p></div>`)[0];
+            popup_fdcac2b21fff49289534c5f44a97ad21.setContent(html_8892eab493ba44b7afff13438b1d0a53);
+        
+
+        marker_b5b4ff7fda6a4d3592ba2fb0af17c408.bindPopup(popup_fdcac2b21fff49289534c5f44a97ad21)
+        ;
+
+        
+    
+    
+            marker_b5b4ff7fda6a4d3592ba2fb0af17c408.bindTooltip(
+                `<div>
+                     ['Bellevue Ave & E Pine St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15fe2bd55929439299edd6aaa6e08e17 = L.marker(
+                [47.624142, -122.31681100000002],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_8e593db1b6c04272ab55a2ca6378bc26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_15fe2bd55929439299edd6aaa6e08e17.setIcon(icon_8e593db1b6c04272ab55a2ca6378bc26);
+        
+    
+        var popup_0d3ad6dc18a942b1989d4e8dc52f073e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c3558a040a841adae1e903543f7cc33 = $(`<div id="html_0c3558a040a841adae1e903543f7cc33" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;15</h4>  <hr>  <p>Alugueis: 5426 Depositos: 1989</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;CH&#8209;08 2&#8209;SLU&#8209;04 3&#8209;FH&#8209;04 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;08 2&#8209;CH&#8209;07 3&#8209;CH&#8209;15</p></div>`)[0];
+            popup_0d3ad6dc18a942b1989d4e8dc52f073e.setContent(html_0c3558a040a841adae1e903543f7cc33);
+        
+
+        marker_15fe2bd55929439299edd6aaa6e08e17.bindPopup(popup_0d3ad6dc18a942b1989d4e8dc52f073e)
+        ;
+
+        
+    
+    
+            marker_15fe2bd55929439299edd6aaa6e08e17.bindTooltip(
+                `<div>
+                     ['12th Ave & E Mercer St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63ce411b55ab4183b3813622c31cc7eb = L.marker(
+                [47.624297999999996, -122.33961699999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_30ee3aaa2a7d4505bc35527c82d8eb7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_63ce411b55ab4183b3813622c31cc7eb.setIcon(icon_30ee3aaa2a7d4505bc35527c82d8eb7a);
+        
+    
+        var popup_c6df418a055642079faa87cc80b9999e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1834d54fa22b45539517efd7b8aca58d = $(`<div id="html_1834d54fa22b45539517efd7b8aca58d" style="width: 100.0%; height: 100.0%;"><h4>DPD&#8209;01</h4>  <hr>  <p>Alugueis: 4177 Depositos: 5551</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;EL&#8209;03 2&#8209;SLU&#8209;07 3&#8209;SLU&#8209;15 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;BT&#8209;04 2&#8209;EL&#8209;03 3&#8209;SLU&#8209;15</p></div>`)[0];
+            popup_c6df418a055642079faa87cc80b9999e.setContent(html_1834d54fa22b45539517efd7b8aca58d);
+        
+
+        marker_63ce411b55ab4183b3813622c31cc7eb.bindPopup(popup_c6df418a055642079faa87cc80b9999e)
+        ;
+
+        
+    
+    
+            marker_63ce411b55ab4183b3813622c31cc7eb.bindTooltip(
+                `<div>
+                     ['9th Ave N & Mercer St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_21a951910b1142c9acac701784d5efdd = L.marker(
+                [47.663509000000005, -122.28411899999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_ca1ef2015eca4ddfa05a24806a3709a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_21a951910b1142c9acac701784d5efdd.setIcon(icon_ca1ef2015eca4ddfa05a24806a3709a8);
+        
+    
+        var popup_969e0ce2955e4f60a1ef22114e70c73c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b128cf95de844dee865c11b16368e953 = $(`<div id="html_b128cf95de844dee865c11b16368e953" style="width: 100.0%; height: 100.0%;"><h4>DPD&#8209;03</h4>  <hr>  <p>Alugueis: 1290 Depositos: 1232</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;UD&#8209;01 2&#8209;DPD&#8209;03 3&#8209;UW&#8209;07 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;UD&#8209;01 2&#8209;DPD&#8209;03 3&#8209;UW&#8209;07</p></div>`)[0];
+            popup_969e0ce2955e4f60a1ef22114e70c73c.setContent(html_b128cf95de844dee865c11b16368e953);
+        
+
+        marker_21a951910b1142c9acac701784d5efdd.bindPopup(popup_969e0ce2955e4f60a1ef22114e70c73c)
+        ;
+
+        
+    
+    
+            marker_21a951910b1142c9acac701784d5efdd.bindTooltip(
+                `<div>
+                     ["Children's Hospital / Sandpoint Way NE & 40th Ave NE"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44e8f8f5c76c4c5eb36f6baf81485abe = L.marker(
+                [47.627643, -122.332576],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_e42c16e3dc86453ebc00166fcc8feb14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_44e8f8f5c76c4c5eb36f6baf81485abe.setIcon(icon_e42c16e3dc86453ebc00166fcc8feb14);
+        
+    
+        var popup_3f094b80870148cd98d4d09d773e3f53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f2ffa42e66443ec84a7e141787c7753 = $(`<div id="html_6f2ffa42e66443ec84a7e141787c7753" style="width: 100.0%; height: 100.0%;"><h4>EL&#8209;01</h4>  <hr>  <p>Alugueis: 2968 Depositos: 3349</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;EL&#8209;03 2&#8209;BT&#8209;01 3&#8209;SLU&#8209;15 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;EL&#8209;03 2&#8209;EL&#8209;01 3&#8209;BT&#8209;01</p></div>`)[0];
+            popup_3f094b80870148cd98d4d09d773e3f53.setContent(html_6f2ffa42e66443ec84a7e141787c7753);
+        
+
+        marker_44e8f8f5c76c4c5eb36f6baf81485abe.bindPopup(popup_3f094b80870148cd98d4d09d773e3f53)
+        ;
+
+        
+    
+    
+            marker_44e8f8f5c76c4c5eb36f6baf81485abe.bindTooltip(
+                `<div>
+                     ['Fred Hutchinson Cancer Research Center / Fairview Ave N & Ward St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8dda51e8afbf434587533dbcd3c1abbd = L.marker(
+                [47.634831, -122.32663400000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_1c244b121c9b4322b330e4cefb94b5b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_8dda51e8afbf434587533dbcd3c1abbd.setIcon(icon_1c244b121c9b4322b330e4cefb94b5b0);
+        
+    
+        var popup_e1d137de57924503bdc3198080a2a862 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51b5cbc5dd9e4508acedbaec68ddd384 = $(`<div id="html_51b5cbc5dd9e4508acedbaec68ddd384" style="width: 100.0%; height: 100.0%;"><h4>EL&#8209;03</h4>  <hr>  <p>Alugueis: 4821 Depositos: 6102</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;17 2&#8209;DPD&#8209;01 3&#8209;SLU&#8209;02 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;SLU&#8209;17 2&#8209;DPD&#8209;01 3&#8209;SLU&#8209;02</p></div>`)[0];
+            popup_e1d137de57924503bdc3198080a2a862.setContent(html_51b5cbc5dd9e4508acedbaec68ddd384);
+        
+
+        marker_8dda51e8afbf434587533dbcd3c1abbd.bindPopup(popup_e1d137de57924503bdc3198080a2a862)
+        ;
+
+        
+    
+    
+            marker_8dda51e8afbf434587533dbcd3c1abbd.bindTooltip(
+                `<div>
+                     ['E Blaine St & Fairview Ave E']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0847e6c5c824ac99a6a62744042fe45 = L.marker(
+                [47.64909, -122.32298300000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_3c6145f3dc954e29a27625d956c56aaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d0847e6c5c824ac99a6a62744042fe45.setIcon(icon_3c6145f3dc954e29a27625d956c56aaf);
+        
+    
+        var popup_5ad32faa4dfe4ebbbc62b27c047cdfe7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0d3cd27be644b018ed8dcf6b4819ddf = $(`<div id="html_c0d3cd27be644b018ed8dcf6b4819ddf" style="width: 100.0%; height: 100.0%;"><h4>EL&#8209;05</h4>  <hr>  <p>Alugueis: 3104 Depositos: 4008</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;17 2&#8209;UD&#8209;04 3&#8209;UW&#8209;04 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;SLU&#8209;17 2&#8209;UW&#8209;04 3&#8209;EL&#8209;05</p></div>`)[0];
+            popup_5ad32faa4dfe4ebbbc62b27c047cdfe7.setContent(html_c0d3cd27be644b018ed8dcf6b4819ddf);
+        
+
+        marker_d0847e6c5c824ac99a6a62744042fe45.bindPopup(popup_5ad32faa4dfe4ebbbc62b27c047cdfe7)
+        ;
+
+        
+    
+    
+            marker_d0847e6c5c824ac99a6a62744042fe45.bindTooltip(
+                `<div>
+                     ['Eastlake Ave E & E Allison St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e598a82c3e24b6fb56eff8fbdc108ba = L.marker(
+                [47.607281, -122.32478300000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_8cac3f5ead3b4ecca5769e4bc1479001 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_7e598a82c3e24b6fb56eff8fbdc108ba.setIcon(icon_8cac3f5ead3b4ecca5769e4bc1479001);
+        
+    
+        var popup_94ac99ad143440b593854d238b1b96b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a9b7241af60402994cb07607b6c506f = $(`<div id="html_2a9b7241af60402994cb07607b6c506f" style="width: 100.0%; height: 100.0%;"><h4>FH&#8209;01</h4>  <hr>  <p>Alugueis: 2349 Depositos: 909</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;CH&#8209;08 2&#8209;SLU&#8209;04 3&#8209;CH&#8209;02 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;FH&#8209;01 2&#8209;CH&#8209;07 3&#8209;CH&#8209;02</p></div>`)[0];
+            popup_94ac99ad143440b593854d238b1b96b1.setContent(html_2a9b7241af60402994cb07607b6c506f);
+        
+
+        marker_7e598a82c3e24b6fb56eff8fbdc108ba.bindPopup(popup_94ac99ad143440b593854d238b1b96b1)
+        ;
+
+        
+    
+    
+            marker_7e598a82c3e24b6fb56eff8fbdc108ba.bindTooltip(
+                `<div>
+                     ['Frye Art Museum / Terry Ave & Columbia St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c936841b24b496f980209645e2e24a8 = L.marker(
+                [47.609239, -122.31665100000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_e3af075c2e5c43059bfb5a5024a9cee5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_9c936841b24b496f980209645e2e24a8.setIcon(icon_e3af075c2e5c43059bfb5a5024a9cee5);
+        
+    
+        var popup_0f9cadd78cc04890bab682380014cfda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68ddf3c2bea64a90a790648924195ee0 = $(`<div id="html_68ddf3c2bea64a90a790648924195ee0" style="width: 100.0%; height: 100.0%;"><h4>FH&#8209;04</h4>  <hr>  <p>Alugueis: 3365 Depositos: 2578</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;CBD&#8209;13 2&#8209;ID&#8209;04 3&#8209;CH&#8209;08 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;08 2&#8209;CH&#8209;15 3&#8209;CH&#8209;09</p></div>`)[0];
+            popup_0f9cadd78cc04890bab682380014cfda.setContent(html_68ddf3c2bea64a90a790648924195ee0);
+        
+
+        marker_9c936841b24b496f980209645e2e24a8.bindPopup(popup_0f9cadd78cc04890bab682380014cfda)
+        ;
+
+        
+    
+    
+            marker_9c936841b24b496f980209645e2e24a8.bindTooltip(
+                `<div>
+                     ['Seattle University / E Columbia St & 12th Ave']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_193b6a23c0ff4f02927c8202856cfe38 = L.marker(
+                [47.598488, -122.326412],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_73af4c35c0904f51b2bd775918babd05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_193b6a23c0ff4f02927c8202856cfe38.setIcon(icon_73af4c35c0904f51b2bd775918babd05);
+        
+    
+        var popup_363b57076b4a47ba90add0743d994cf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a174b959c70647b9b4617898eeaacfd4 = $(`<div id="html_a174b959c70647b9b4617898eeaacfd4" style="width: 100.0%; height: 100.0%;"><h4>ID&#8209;04</h4>  <hr>  <p>Alugueis: 2182 Depositos: 3771</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;ID&#8209;04 2&#8209;CBD&#8209;07 3&#8209;PS&#8209;04 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;FH&#8209;04 2&#8209;CBD&#8209;07 3&#8209;CH&#8209;08</p></div>`)[0];
+            popup_363b57076b4a47ba90add0743d994cf4.setContent(html_a174b959c70647b9b4617898eeaacfd4);
+        
+
+        marker_193b6a23c0ff4f02927c8202856cfe38.bindPopup(popup_363b57076b4a47ba90add0743d994cf4)
+        ;
+
+        
+    
+    
+            marker_193b6a23c0ff4f02927c8202856cfe38.bindTooltip(
+                `<div>
+                     ['6th Ave S & S King St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff939c31b5954816b855cf5bdf8f9462 = L.marker(
+                [47.600757, -122.33294599999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_f2674ccdb6e64da193e386cf92770e6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_ff939c31b5954816b855cf5bdf8f9462.setIcon(icon_f2674ccdb6e64da193e386cf92770e6a);
+        
+    
+        var popup_5cd846e6bde74647a8d13f33a3622994 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48cf0a412cd746b595cf2763d31dded3 = $(`<div id="html_48cf0a412cd746b595cf2763d31dded3" style="width: 100.0%; height: 100.0%;"><h4>PS&#8209;04</h4>  <hr>  <p>Alugueis: 4585 Depositos: 7898</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;CBD&#8209;13 2&#8209;WF&#8209;04 3&#8209;WF&#8209;01 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CBD&#8209;13 2&#8209;WF&#8209;01 3&#8209;CH&#8209;01</p></div>`)[0];
+            popup_5cd846e6bde74647a8d13f33a3622994.setContent(html_48cf0a412cd746b595cf2763d31dded3);
+        
+
+        marker_ff939c31b5954816b855cf5bdf8f9462.bindPopup(popup_5cd846e6bde74647a8d13f33a3622994)
+        ;
+
+        
+    
+    
+            marker_ff939c31b5954816b855cf5bdf8f9462.bindTooltip(
+                `<div>
+                     ['Occidental Park / Occidental Ave S & S Washington St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39a8e8ba5f8445b281619184a55027fc = L.marker(
+                [47.598994, -122.32968400000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_950ac1e61852469d896a5dbd88c6120d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_39a8e8ba5f8445b281619184a55027fc.setIcon(icon_950ac1e61852469d896a5dbd88c6120d);
+        
+    
+        var popup_a15c221d882d4d7f80cb68ee520a4dec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac07e4de10134eac826c3259d6c4e3c3 = $(`<div id="html_ac07e4de10134eac826c3259d6c4e3c3" style="width: 100.0%; height: 100.0%;"><h4>PS&#8209;05</h4>  <hr>  <p>Alugueis: 3292 Depositos: 5772</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;WF&#8209;01 2&#8209;SLU&#8209;15 3&#8209;CBD&#8209;13 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;WF&#8209;01 2&#8209;CBD&#8209;13 3&#8209;CBD&#8209;06</p></div>`)[0];
+            popup_a15c221d882d4d7f80cb68ee520a4dec.setContent(html_ac07e4de10134eac826c3259d6c4e3c3);
+        
+
+        marker_39a8e8ba5f8445b281619184a55027fc.bindPopup(popup_a15c221d882d4d7f80cb68ee520a4dec)
+        ;
+
+        
+    
+    
+            marker_39a8e8ba5f8445b281619184a55027fc.bindTooltip(
+                `<div>
+                     ['King Street Station Plaza / 2nd Ave Extension S & S Jackson St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c896a1dba0404dcfb367638891451978 = L.marker(
+                [47.619859000000005, -122.330304],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_6f73707c11dc4d31b66033a54ea1658c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_c896a1dba0404dcfb367638891451978.setIcon(icon_6f73707c11dc4d31b66033a54ea1658c);
+        
+    
+        var popup_2844692b1fd742adacf9ec8d22bada00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_046276c7eeab46438145e4b573277735 = $(`<div id="html_046276c7eeab46438145e4b573277735" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;01</h4>  <hr>  <p>Alugueis: 6401 Depositos: 6556</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;15 2&#8209;SLU&#8209;16 3&#8209;SLU&#8209;07 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;07 2&#8209;SLU&#8209;16 3&#8209;SLU&#8209;15</p></div>`)[0];
+            popup_2844692b1fd742adacf9ec8d22bada00.setContent(html_046276c7eeab46438145e4b573277735);
+        
+
+        marker_c896a1dba0404dcfb367638891451978.bindPopup(popup_2844692b1fd742adacf9ec8d22bada00)
+        ;
+
+        
+    
+    
+            marker_c896a1dba0404dcfb367638891451978.bindTooltip(
+                `<div>
+                     ['REI / Yale Ave N & John St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c29e70ec4f2d4dd3817385547a4fe5ea = L.marker(
+                [47.627734999999994, -122.34223200000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_7d5d2adef6d1443387536192f3be2932 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_c29e70ec4f2d4dd3817385547a4fe5ea.setIcon(icon_7d5d2adef6d1443387536192f3be2932);
+        
+    
+        var popup_f65fc327a16c49fbb1cb1eca215c0856 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_413f51b0ea6c439e9ed30688a9ca2c4d = $(`<div id="html_413f51b0ea6c439e9ed30688a9ca2c4d" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;02</h4>  <hr>  <p>Alugueis: 5917 Depositos: 6387</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;04 2&#8209;SLU&#8209;07 3&#8209;SLU&#8209;15 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;SLU&#8209;15 2&#8209;SLU&#8209;04 3&#8209;SLU&#8209;07</p></div>`)[0];
+            popup_f65fc327a16c49fbb1cb1eca215c0856.setContent(html_413f51b0ea6c439e9ed30688a9ca2c4d);
+        
+
+        marker_c29e70ec4f2d4dd3817385547a4fe5ea.bindPopup(popup_f65fc327a16c49fbb1cb1eca215c0856)
+        ;
+
+        
+    
+    
+            marker_c29e70ec4f2d4dd3817385547a4fe5ea.bindTooltip(
+                `<div>
+                     ['Dexter Ave N & Aloha St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5220acbf9bf5489e8bf83a78dabc99b5 = L.marker(
+                [47.623165, -122.33820300000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_d2c7cb5df92147acac549a99e49889ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_5220acbf9bf5489e8bf83a78dabc99b5.setIcon(icon_d2c7cb5df92147acac549a99e49889ef);
+        
+    
+        var popup_5bb5961d53d54453b0d0be8b0466e297 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ef1bb38763f48cfa1b7f78e77192588 = $(`<div id="html_8ef1bb38763f48cfa1b7f78e77192588" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;04</h4>  <hr>  <p>Alugueis: 4512 Depositos: 7504</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;02 2&#8209;SLU&#8209;15 3&#8209;BT&#8209;03 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;SLU&#8209;02 2&#8209;SLU&#8209;15 3&#8209;BT&#8209;03</p></div>`)[0];
+            popup_5bb5961d53d54453b0d0be8b0466e297.setContent(html_8ef1bb38763f48cfa1b7f78e77192588);
+        
+
+        marker_5220acbf9bf5489e8bf83a78dabc99b5.bindPopup(popup_5bb5961d53d54453b0d0be8b0466e297)
+        ;
+
+        
+    
+    
+            marker_5220acbf9bf5489e8bf83a78dabc99b5.bindTooltip(
+                `<div>
+                     ['Republican St & Westlake Ave N']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11e5b950a75a4a0fb04e08ae85425cc2 = L.marker(
+                [47.618320000000004, -122.33891299999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_b48ede8619db4e80b51728fb67f6585a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_11e5b950a75a4a0fb04e08ae85425cc2.setIcon(icon_b48ede8619db4e80b51728fb67f6585a);
+        
+    
+        var popup_95f2f6595db84966bb7c8eba1d70d3ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2febaacccd014cd1bac48977b42929e3 = $(`<div id="html_2febaacccd014cd1bac48977b42929e3" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;07</h4>  <hr>  <p>Alugueis: 5631 Depositos: 8469</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;02 2&#8209;DPD&#8209;01 3&#8209;SLU&#8209;15 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;SLU&#8209;02 2&#8209;CH&#8209;08 3&#8209;DPD&#8209;01</p></div>`)[0];
+            popup_95f2f6595db84966bb7c8eba1d70d3ec.setContent(html_2febaacccd014cd1bac48977b42929e3);
+        
+
+        marker_11e5b950a75a4a0fb04e08ae85425cc2.bindPopup(popup_95f2f6595db84966bb7c8eba1d70d3ec)
+        ;
+
+        
+    
+    
+            marker_11e5b950a75a4a0fb04e08ae85425cc2.bindTooltip(
+                `<div>
+                     ['PATH / 9th Ave & Westlake Ave']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69c0c6ffba7e4a708ec34fb619485885 = L.marker(
+                [47.613628000000006, -122.337341],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_9b202ad8129b4a1ca48e4b97bb70e44d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_69c0c6ffba7e4a708ec34fb619485885.setIcon(icon_9b202ad8129b4a1ca48e4b97bb70e44d);
+        
+    
+        var popup_21b7272e77b44e7caea86f4b0f327f12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_932df470160a4c7d9c1e96d254506bb1 = $(`<div id="html_932df470160a4c7d9c1e96d254506bb1" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;15</h4>  <hr>  <p>Alugueis: 8188 Depositos: 9009</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;02 2&#8209;SLU&#8209;04 3&#8209;CBD&#8209;05 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;SLU&#8209;01 2&#8209;SLU&#8209;02 3&#8209;BT&#8209;03</p></div>`)[0];
+            popup_21b7272e77b44e7caea86f4b0f327f12.setContent(html_932df470160a4c7d9c1e96d254506bb1);
+        
+
+        marker_69c0c6ffba7e4a708ec34fb619485885.bindPopup(popup_21b7272e77b44e7caea86f4b0f327f12)
+        ;
+
+        
+    
+    
+            marker_69c0c6ffba7e4a708ec34fb619485885.bindTooltip(
+                `<div>
+                     ['Westlake Ave & 6th Ave']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2a136e6a7674f66a00ab74d0176e2f5 = L.marker(
+                [47.613715, -122.331777],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_122e43f9e45d4e5fa3ba88ba01f0655c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_e2a136e6a7674f66a00ab74d0176e2f5.setIcon(icon_122e43f9e45d4e5fa3ba88ba01f0655c);
+        
+    
+        var popup_653842bf0f5e4d3fb58112659a34e2a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abc79b2f4a5e4db98aadb8e6c105958d = $(`<div id="html_abc79b2f4a5e4db98aadb8e6c105958d" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;16</h4>  <hr>  <p>Alugueis: 4628 Depositos: 7318</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;01 2&#8209;SLU&#8209;07 3&#8209;CBD&#8209;13 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;07 2&#8209;CH&#8209;02 3&#8209;SLU&#8209;01</p></div>`)[0];
+            popup_653842bf0f5e4d3fb58112659a34e2a6.setContent(html_abc79b2f4a5e4db98aadb8e6c105958d);
+        
+
+        marker_e2a136e6a7674f66a00ab74d0176e2f5.bindPopup(popup_653842bf0f5e4d3fb58112659a34e2a6)
+        ;
+
+        
+    
+    
+            marker_e2a136e6a7674f66a00ab74d0176e2f5.bindTooltip(
+                `<div>
+                     ['Pine St & 9th Ave']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e811bca7ac6f4f66b601056eeb184f43 = L.marker(
+                [47.626041, -122.335831],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_75cf98dae2c34a129fc9b92cd3fa5a81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_e811bca7ac6f4f66b601056eeb184f43.setIcon(icon_75cf98dae2c34a129fc9b92cd3fa5a81);
+        
+    
+        var popup_f193324f98aa411aa449e0328b73ee30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5047a6281f354fdbb600bc4337c776e9 = $(`<div id="html_5047a6281f354fdbb600bc4337c776e9" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;17</h4>  <hr>  <p>Alugueis: 4897 Depositos: 5313</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;17 2&#8209;EL&#8209;03 3&#8209;EL&#8209;05 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;SLU&#8209;17 2&#8209;EL&#8209;03 3&#8209;EL&#8209;05</p></div>`)[0];
+            popup_f193324f98aa411aa449e0328b73ee30.setContent(html_5047a6281f354fdbb600bc4337c776e9);
+        
+
+        marker_e811bca7ac6f4f66b601056eeb184f43.bindPopup(popup_f193324f98aa411aa449e0328b73ee30)
+        ;
+
+        
+    
+    
+            marker_e811bca7ac6f4f66b601056eeb184f43.bindTooltip(
+                `<div>
+                     ['Lake Union Park / Valley St & Boren Ave N']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb2caa71ed8f4965865e36d48c8cc51b = L.marker(
+                [47.618285, -122.342205],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_792594264892443aa66e406a13d5a6c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_bb2caa71ed8f4965865e36d48c8cc51b.setIcon(icon_792594264892443aa66e406a13d5a6c7);
+        
+    
+        var popup_eda391a0ebdf47209731d2173b9c296e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3d966019a4741638a3d56632736a603 = $(`<div id="html_c3d966019a4741638a3d56632736a603" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;18</h4>  <hr>  <p>Alugueis: 3461 Depositos: 2834</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;DPD&#8209;01 2&#8209;SLU&#8209;02 3&#8209;EL&#8209;03 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;EL&#8209;03 2&#8209;SLU&#8209;18 3&#8209;SLU&#8209;01</p></div>`)[0];
+            popup_eda391a0ebdf47209731d2173b9c296e.setContent(html_c3d966019a4741638a3d56632736a603);
+        
+
+        marker_bb2caa71ed8f4965865e36d48c8cc51b.bindPopup(popup_eda391a0ebdf47209731d2173b9c296e)
+        ;
+
+        
+    
+    
+            marker_bb2caa71ed8f4965865e36d48c8cc51b.bindTooltip(
+                `<div>
+                     ['Dexter Ave & Denny Way']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e39fc4f9d0524dc0982ffc6445eeab65 = L.marker(
+                [47.622277000000004, -122.35523],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_731eaeab003648079993a064e93d431e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_e39fc4f9d0524dc0982ffc6445eeab65.setIcon(icon_731eaeab003648079993a064e93d431e);
+        
+    
+        var popup_285eb6339d684f348f2884d1279ad25f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_beb964c583c147ae851d19a13b10c164 = $(`<div id="html_beb964c583c147ae851d19a13b10c164" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;19</h4>  <hr>  <p>Alugueis: 6402 Depositos: 6848</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;19 2&#8209;CBD&#8209;05 3&#8209;WF&#8209;01 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;SLU&#8209;19 2&#8209;BT&#8209;05 3&#8209;CBD&#8209;13</p></div>`)[0];
+            popup_285eb6339d684f348f2884d1279ad25f.setContent(html_beb964c583c147ae851d19a13b10c164);
+        
+
+        marker_e39fc4f9d0524dc0982ffc6445eeab65.bindPopup(popup_285eb6339d684f348f2884d1279ad25f)
+        ;
+
+        
+    
+    
+            marker_e39fc4f9d0524dc0982ffc6445eeab65.bindTooltip(
+                `<div>
+                     ['Key Arena / 1st Ave N & Harrison St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8f71d4390464419a92a827de0a81ad7 = L.marker(
+                [47.61626, -122.33381499999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_43dfb09a2f2d4942a2da94114cb48b57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_f8f71d4390464419a92a827de0a81ad7.setIcon(icon_43dfb09a2f2d4942a2da94114cb48b57);
+        
+    
+        var popup_4301ed1cdd2a4460b1d39415a5df010a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cbc50e8e2284470ab50f974f682e3b3 = $(`<div id="html_5cbc50e8e2284470ab50f974f682e3b3" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;20</h4>  <hr>  <p>Alugueis: 2134 Depositos: 2149</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;02 2&#8209;SLU&#8209;04 3&#8209;SLU&#8209;01 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;SLU&#8209;01 2&#8209;SLU&#8209;02 3&#8209;CH&#8209;02</p></div>`)[0];
+            popup_4301ed1cdd2a4460b1d39415a5df010a.setContent(html_5cbc50e8e2284470ab50f974f682e3b3);
+        
+
+        marker_f8f71d4390464419a92a827de0a81ad7.bindPopup(popup_4301ed1cdd2a4460b1d39415a5df010a)
+        ;
+
+        
+    
+    
+            marker_f8f71d4390464419a92a827de0a81ad7.bindTooltip(
+                `<div>
+                     ['Terry Ave & Stewart St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61176d6f7d1c4146b5ff0f2e76d0cf1b = L.marker(
+                [47.624769, -122.339408],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_ba00f43f39b148c9b3b7767a1cb3b601 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_61176d6f7d1c4146b5ff0f2e76d0cf1b.setIcon(icon_ba00f43f39b148c9b3b7767a1cb3b601);
+        
+    
+        var popup_5833153b5c0c4e28bb3b9f3154ca3eaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f912fa7a9818472680f1e1f5b275c359 = $(`<div id="html_f912fa7a9818472680f1e1f5b275c359" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;21</h4>  <hr>  <p>Alugueis: 863 Depositos: 1147</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;SLU&#8209;21 2&#8209;EL&#8209;03 3&#8209;SLU&#8209;15 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;SLU&#8209;02 2&#8209;EL&#8209;03 3&#8209;SLU&#8209;01</p></div>`)[0];
+            popup_5833153b5c0c4e28bb3b9f3154ca3eaf.setContent(html_f912fa7a9818472680f1e1f5b275c359);
+        
+
+        marker_61176d6f7d1c4146b5ff0f2e76d0cf1b.bindPopup(popup_5833153b5c0c4e28bb3b9f3154ca3eaf)
+        ;
+
+        
+    
+    
+            marker_61176d6f7d1c4146b5ff0f2e76d0cf1b.bindTooltip(
+                `<div>
+                     ['Mercer St & 9th Ave N']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccffaf0c2f034f35aed70ead3852009d = L.marker(
+                [47.666145, -122.301491],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_302c7e31dd954058868f5cdf03cf569c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_ccffaf0c2f034f35aed70ead3852009d.setIcon(icon_302c7e31dd954058868f5cdf03cf569c);
+        
+    
+        var popup_34591fcfeeef4261a7645f4c5f50629c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d5eb7603e62405faaec653b2de9fc3f = $(`<div id="html_9d5eb7603e62405faaec653b2de9fc3f" style="width: 100.0%; height: 100.0%;"><h4>UD&#8209;01</h4>  <hr>  <p>Alugueis: 3243 Depositos: 3624</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;UD&#8209;01 2&#8209;UW&#8209;11 3&#8209;DPD&#8209;03 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;UD&#8209;01 2&#8209;UW&#8209;11 3&#8209;DPD&#8209;03</p></div>`)[0];
+            popup_34591fcfeeef4261a7645f4c5f50629c.setContent(html_9d5eb7603e62405faaec653b2de9fc3f);
+        
+
+        marker_ccffaf0c2f034f35aed70ead3852009d.bindPopup(popup_34591fcfeeef4261a7645f4c5f50629c)
+        ;
+
+        
+    
+    
+            marker_ccffaf0c2f034f35aed70ead3852009d.bindTooltip(
+                `<div>
+                     ['Burke-Gilman Trail / NE Blakeley St & 24th Ave NE']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ab56011bff749f6804a40f817e6d527 = L.marker(
+                [47.658288, -122.31333400000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_4478d6655fe84f12ab80626129854590 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_6ab56011bff749f6804a40f817e6d527.setIcon(icon_4478d6655fe84f12ab80626129854590);
+        
+    
+        var popup_56b67499c7dc4c05bda1748434138c6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_012bb99c6820473b8752a767e99f90a2 = $(`<div id="html_012bb99c6820473b8752a767e99f90a2" style="width: 100.0%; height: 100.0%;"><h4>UD&#8209;02</h4>  <hr>  <p>Alugueis: 1147 Depositos: 1135</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;UD&#8209;02 2&#8209;UD&#8209;04 3&#8209;UW&#8209;10 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;UD&#8209;02 2&#8209;SLU&#8209;01 3&#8209;UW&#8209;06</p></div>`)[0];
+            popup_56b67499c7dc4c05bda1748434138c6e.setContent(html_012bb99c6820473b8752a767e99f90a2);
+        
+
+        marker_6ab56011bff749f6804a40f817e6d527.bindPopup(popup_56b67499c7dc4c05bda1748434138c6e)
+        ;
+
+        
+    
+    
+            marker_6ab56011bff749f6804a40f817e6d527.bindTooltip(
+                `<div>
+                     ['NE 42nd St & University Way NE']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3cc967260e8c484597b50d915341c3f3 = L.marker(
+                [47.656395, -122.31562],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_53135d05ed174df0bcaea5ddf87fecff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_3cc967260e8c484597b50d915341c3f3.setIcon(icon_53135d05ed174df0bcaea5ddf87fecff);
+        
+    
+        var popup_ffe0b5ced92748a2925e6a837c00e80e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb54b95475cf44ac9fa399337061eeae = $(`<div id="html_bb54b95475cf44ac9fa399337061eeae" style="width: 100.0%; height: 100.0%;"><h4>UD&#8209;04</h4>  <hr>  <p>Alugueis: 3047 Depositos: 4037</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;UD&#8209;04 2&#8209;UW&#8209;06 3&#8209;EL&#8209;05 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;UD&#8209;04 2&#8209;UD&#8209;07 3&#8209;UW&#8209;06</p></div>`)[0];
+            popup_ffe0b5ced92748a2925e6a837c00e80e.setContent(html_bb54b95475cf44ac9fa399337061eeae);
+        
+
+        marker_3cc967260e8c484597b50d915341c3f3.bindPopup(popup_ffe0b5ced92748a2925e6a837c00e80e)
+        ;
+
+        
+    
+    
+            marker_3cc967260e8c484597b50d915341c3f3.bindTooltip(
+                `<div>
+                     ['12th Ave & NE Campus Pkwy']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_228d0c03cee94962aea205977978edcb = L.marker(
+                [47.663143, -122.31508600000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_bdc56c57ba90400094352d3dbc0892b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_228d0c03cee94962aea205977978edcb.setIcon(icon_bdc56c57ba90400094352d3dbc0892b4);
+        
+    
+        var popup_222d852f0bd24ee1a6590ff7b96f9e05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bfa857c7c8d4ab0884495c763a32997 = $(`<div id="html_3bfa857c7c8d4ab0884495c763a32997" style="width: 100.0%; height: 100.0%;"><h4>UD&#8209;07</h4>  <hr>  <p>Alugueis: 2115 Depositos: 1497</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;UD&#8209;07 2&#8209;UD&#8209;04 3&#8209;UW&#8209;02 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;UD&#8209;07 2&#8209;EL&#8209;05 3&#8209;UW&#8209;02</p></div>`)[0];
+            popup_222d852f0bd24ee1a6590ff7b96f9e05.setContent(html_3bfa857c7c8d4ab0884495c763a32997);
+        
+
+        marker_228d0c03cee94962aea205977978edcb.bindPopup(popup_222d852f0bd24ee1a6590ff7b96f9e05)
+        ;
+
+        
+    
+    
+            marker_228d0c03cee94962aea205977978edcb.bindTooltip(
+                `<div>
+                     ['NE 47th St & 12th Ave NE']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1be5e121ed6947da8e160ab93ecbc629 = L.marker(
+                [47.660268, -122.304826],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_f42250ad30684b119b40d51f98f91a20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_1be5e121ed6947da8e160ab93ecbc629.setIcon(icon_f42250ad30684b119b40d51f98f91a20);
+        
+    
+        var popup_95f4dc48f1e74a1e8db23c85474f4781 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_199e2856792d435ebdc6cd33dbcbb1d0 = $(`<div id="html_199e2856792d435ebdc6cd33dbcbb1d0" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;01</h4>  <hr>  <p>Alugueis: 480 Depositos: 449</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;UW&#8209;06 2&#8209;UW&#8209;04 3&#8209;UD&#8209;01 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;UW&#8209;06 2&#8209;UW&#8209;02 3&#8209;UD&#8209;04</p></div>`)[0];
+            popup_95f4dc48f1e74a1e8db23c85474f4781.setContent(html_199e2856792d435ebdc6cd33dbcbb1d0);
+        
+
+        marker_1be5e121ed6947da8e160ab93ecbc629.bindPopup(popup_95f4dc48f1e74a1e8db23c85474f4781)
+        ;
+
+        
+    
+    
+            marker_1be5e121ed6947da8e160ab93ecbc629.bindTooltip(
+                `<div>
+                     ['UW McCarty Hall / Whitman Ct']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80baf737db894709b441a1a61c186b6b = L.marker(
+                [47.659756, -122.310402],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_e6d9a949e67d4d6fa2d4b2d7a8429ebc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_80baf737db894709b441a1a61c186b6b.setIcon(icon_e6d9a949e67d4d6fa2d4b2d7a8429ebc);
+        
+    
+        var popup_fbfbae4459d340aa8e6b7371dd706875 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_923a243e419242128d4f73c1dbbdd793 = $(`<div id="html_923a243e419242128d4f73c1dbbdd793" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;02</h4>  <hr>  <p>Alugueis: 1689 Depositos: 1093</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;UW&#8209;02 2&#8209;UW&#8209;06 3&#8209;UD&#8209;01 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;UW&#8209;02 2&#8209;UD&#8209;07 3&#8209;UW&#8209;06</p></div>`)[0];
+            popup_fbfbae4459d340aa8e6b7371dd706875.setContent(html_923a243e419242128d4f73c1dbbdd793);
+        
+
+        marker_80baf737db894709b441a1a61c186b6b.bindPopup(popup_fbfbae4459d340aa8e6b7371dd706875)
+        ;
+
+        
+    
+    
+            marker_80baf737db894709b441a1a61c186b6b.bindTooltip(
+                `<div>
+                     ['Burke Museum / E Stevens Way NE & Memorial Way NE']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48e4c4e5d4f24de2a53e81a056feacf3 = L.marker(
+                [47.655590000000004, -122.31188999999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_3dd1f1e008a7483b9782626c4ec1879b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_48e4c4e5d4f24de2a53e81a056feacf3.setIcon(icon_3dd1f1e008a7483b9782626c4ec1879b);
+        
+    
+        var popup_efc8ab0208774b4487772133ee89682d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36ed72599d7d4366ae506dd756b83202 = $(`<div id="html_36ed72599d7d4366ae506dd756b83202" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;04</h4>  <hr>  <p>Alugueis: 2318 Depositos: 2543</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;EL&#8209;05 2&#8209;UD&#8209;01 3&#8209;UW&#8209;04 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;UD&#8209;01 2&#8209;UW&#8209;04 3&#8209;EL&#8209;05</p></div>`)[0];
+            popup_efc8ab0208774b4487772133ee89682d.setContent(html_36ed72599d7d4366ae506dd756b83202);
+        
+
+        marker_48e4c4e5d4f24de2a53e81a056feacf3.bindPopup(popup_efc8ab0208774b4487772133ee89682d)
+        ;
+
+        
+    
+    
+            marker_48e4c4e5d4f24de2a53e81a056feacf3.bindTooltip(
+                `<div>
+                     ['15th Ave NE & NE 40th St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59493103afa24e519559b41d34bddf32 = L.marker(
+                [47.654613, -122.30486299999998],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_5b4479a8a1704b71914188a5c8886768 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_59493103afa24e519559b41d34bddf32.setIcon(icon_5b4479a8a1704b71914188a5c8886768);
+        
+    
+        var popup_2c4beee7c8ec4a0fab169d94c4f150b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c65a28f1a284c95b4f94f2a38af81c1 = $(`<div id="html_6c65a28f1a284c95b4f94f2a38af81c1" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;06</h4>  <hr>  <p>Alugueis: 2012 Depositos: 1959</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;UD&#8209;04 2&#8209;UW&#8209;04 3&#8209;UD&#8209;01 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;UD&#8209;04 2&#8209;UW&#8209;02 3&#8209;UW&#8209;06</p></div>`)[0];
+            popup_2c4beee7c8ec4a0fab169d94c4f150b0.setContent(html_6c65a28f1a284c95b4f94f2a38af81c1);
+        
+
+        marker_59493103afa24e519559b41d34bddf32.bindPopup(popup_2c4beee7c8ec4a0fab169d94c4f150b0)
+        ;
+
+        
+    
+    
+            marker_59493103afa24e519559b41d34bddf32.bindTooltip(
+                `<div>
+                     ['UW Engineering Library / E Stevens Way NE & Jefferson Rd']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb470981e8ef4defbd38524ac7073969 = L.marker(
+                [47.653713, -122.30216200000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_3dc3df2d1b654833b23bf29dc16fa8d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_bb470981e8ef4defbd38524ac7073969.setIcon(icon_3dc3df2d1b654833b23bf29dc16fa8d5);
+        
+    
+        var popup_c6927c6bbb514307ac50d808e79f23eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2780aa521c004d5e8263f682cbe1252a = $(`<div id="html_2780aa521c004d5e8263f682cbe1252a" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;07</h4>  <hr>  <p>Alugueis: 1542 Depositos: 1671</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;UD&#8209;01 2&#8209;UW&#8209;07 3&#8209;UD&#8209;04 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;UD&#8209;01 2&#8209;UW&#8209;07 3&#8209;DPD&#8209;03</p></div>`)[0];
+            popup_c6927c6bbb514307ac50d808e79f23eb.setContent(html_2780aa521c004d5e8263f682cbe1252a);
+        
+
+        marker_bb470981e8ef4defbd38524ac7073969.bindPopup(popup_c6927c6bbb514307ac50d808e79f23eb)
+        ;
+
+        
+    
+    
+            marker_bb470981e8ef4defbd38524ac7073969.bindTooltip(
+                `<div>
+                     ['UW Intramural Activities Building']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4912c6e40934035b33a58a9ed6c0dcd = L.marker(
+                [47.650725, -122.31118799999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_150aeb4bf1d64721bbb6b348aac1b6ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_a4912c6e40934035b33a58a9ed6c0dcd.setIcon(icon_150aeb4bf1d64721bbb6b348aac1b6ca);
+        
+    
+        var popup_f0fc5835105440d98418bd1da325a24e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c373194d06e490497de396947be4fa1 = $(`<div id="html_4c373194d06e490497de396947be4fa1" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;10</h4>  <hr>  <p>Alugueis: 1160 Depositos: 1624</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;UW&#8209;10 2&#8209;UD&#8209;01 3&#8209;EL&#8209;05 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;UW&#8209;10 2&#8209;UD&#8209;07 3&#8209;UD&#8209;01</p></div>`)[0];
+            popup_f0fc5835105440d98418bd1da325a24e.setContent(html_4c373194d06e490497de396947be4fa1);
+        
+
+        marker_a4912c6e40934035b33a58a9ed6c0dcd.bindPopup(popup_f0fc5835105440d98418bd1da325a24e)
+        ;
+
+        
+    
+    
+            marker_a4912c6e40934035b33a58a9ed6c0dcd.bindTooltip(
+                `<div>
+                     ['UW Magnuson Health Sciences Center Rotunda / Columbia Rd & San Juan Rd']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe07830a7351477a986cc9978b32b6df = L.marker(
+                [47.614315000000005, -122.35409299999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_9ae8518f408d4ec48a39957939788c65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_fe07830a7351477a986cc9978b32b6df.setIcon(icon_9ae8518f408d4ec48a39957939788c65);
+        
+    
+        var popup_ec52bf9014e3444f81cc32a8cbcf7a85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_383c5babff4a40f8a91aea23117920a1 = $(`<div id="html_383c5babff4a40f8a91aea23117920a1" style="width: 100.0%; height: 100.0%;"><h4>WF&#8209;01</h4>  <hr>  <p>Alugueis: 11274 Depositos: 11768</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;WF&#8209;01 2&#8209;WF&#8209;04 3&#8209;PS&#8209;05 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;WF&#8209;01 2&#8209;WF&#8209;04 3&#8209;BT&#8209;01</p></div>`)[0];
+            popup_ec52bf9014e3444f81cc32a8cbcf7a85.setContent(html_383c5babff4a40f8a91aea23117920a1);
+        
+
+        marker_fe07830a7351477a986cc9978b32b6df.bindPopup(popup_ec52bf9014e3444f81cc32a8cbcf7a85)
+        ;
+
+        
+    
+    
+            marker_fe07830a7351477a986cc9978b32b6df.bindTooltip(
+                `<div>
+                     ['Pier 69 / Alaskan Way & Clay St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3d439a154d541e4883632ce5332ed30 = L.marker(
+                [47.607702, -122.34165],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_d913f5bc967744088e072f85be8fa0d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_f3d439a154d541e4883632ce5332ed30.setIcon(icon_d913f5bc967744088e072f85be8fa0d7);
+        
+    
+        var popup_3b20f79e75ed482c8673f1fcb7f6673c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6849f5f9881a490ebe97cde76d252c04 = $(`<div id="html_6849f5f9881a490ebe97cde76d252c04" style="width: 100.0%; height: 100.0%;"><h4>WF&#8209;04</h4>  <hr>  <p>Alugueis: 5385 Depositos: 7621</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;WF&#8209;01 2&#8209;WF&#8209;04 3&#8209;BT&#8209;01 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;WF&#8209;01 2&#8209;WF&#8209;04 3&#8209;BT&#8209;01</p></div>`)[0];
+            popup_3b20f79e75ed482c8673f1fcb7f6673c.setContent(html_6849f5f9881a490ebe97cde76d252c04);
+        
+
+        marker_f3d439a154d541e4883632ce5332ed30.bindPopup(popup_3b20f79e75ed482c8673f1fcb7f6673c)
+        ;
+
+        
+    
+    
+            marker_f3d439a154d541e4883632ce5332ed30.bindTooltip(
+                `<div>
+                     ['Seattle Aquarium / Alaskan Way S & Elliott Bay Trail']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d574975255946f79fbdaf19d1d35af7 = L.marker(
+                [47.61863956, -122.32077690000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_b9e25c506da44f7bbe23b04c1d910673 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_2d574975255946f79fbdaf19d1d35af7.setIcon(icon_b9e25c506da44f7bbe23b04c1d910673);
+        
+    
+        var popup_da6346a4a050462e950e6f7e5dfc1b45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_153b999617eb4f6c938219448855529b = $(`<div id="html_153b999617eb4f6c938219448855529b" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;16</h4>  <hr>  <p>Alugueis: 1288 Depositos: 642</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;CH&#8209;08 2&#8209;CH&#8209;02 3&#8209;CH&#8209;03 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CH&#8209;07 2&#8209;CH&#8209;15 3&#8209;CH&#8209;08</p></div>`)[0];
+            popup_da6346a4a050462e950e6f7e5dfc1b45.setContent(html_153b999617eb4f6c938219448855529b);
+        
+
+        marker_2d574975255946f79fbdaf19d1d35af7.bindPopup(popup_da6346a4a050462e950e6f7e5dfc1b45)
+        ;
+
+        
+    
+    
+            marker_2d574975255946f79fbdaf19d1d35af7.bindTooltip(
+                `<div>
+                     ['Broadway and E Denny Way']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e752e94ca1414a319c165a9c8ee6a563 = L.marker(
+                [47.62087853, -122.34737690000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_ec1bcb850d56463a865e9a268779b4ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_e752e94ca1414a319c165a9c8ee6a563.setIcon(icon_ec1bcb850d56463a865e9a268779b4ea);
+        
+    
+        var popup_6a5698e08aec4deda4e50e655c6da028 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a58ba2dc51d46c89df8ebe593b42097 = $(`<div id="html_5a58ba2dc51d46c89df8ebe593b42097" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;22</h4>  <hr>  <p>Alugueis: 761 Depositos: 729</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;WF&#8209;01 2&#8209;SLU&#8209;22 3&#8209;WF&#8209;04 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;CBD&#8209;13 2&#8209;SLU&#8209;22 3&#8209;SLU&#8209;17</p></div>`)[0];
+            popup_6a5698e08aec4deda4e50e655c6da028.setContent(html_5a58ba2dc51d46c89df8ebe593b42097);
+        
+
+        marker_e752e94ca1414a319c165a9c8ee6a563.bindPopup(popup_6a5698e08aec4deda4e50e655c6da028)
+        ;
+
+        
+    
+    
+            marker_e752e94ca1414a319c165a9c8ee6a563.bindTooltip(
+                `<div>
+                     ['Thomas St & 5th Ave N']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b968d230a9654c6aa8dbcac22fa762eb = L.marker(
+                [47.64995155, -122.3062634],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_1129edac011344d7bf14386c63453e59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_b968d230a9654c6aa8dbcac22fa762eb.setIcon(icon_1129edac011344d7bf14386c63453e59);
+        
+    
+        var popup_f04cbdbbe1b84fdb8fdb381e775d421f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28d62e56fe6f438aa651ccfbd2cafaea = $(`<div id="html_28d62e56fe6f438aa651ccfbd2cafaea" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;11</h4>  <hr>  <p>Alugueis: 988 Depositos: 1113</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;UD&#8209;01 2&#8209;UW&#8209;11 3&#8209;DPD&#8209;03 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;UD&#8209;01 2&#8209;UW&#8209;11 3&#8209;UW&#8209;07</p></div>`)[0];
+            popup_f04cbdbbe1b84fdb8fdb381e775d421f.setContent(html_28d62e56fe6f438aa651ccfbd2cafaea);
+        
+
+        marker_b968d230a9654c6aa8dbcac22fa762eb.bindPopup(popup_f04cbdbbe1b84fdb8fdb381e775d421f)
+        ;
+
+        
+    
+    
+            marker_b968d230a9654c6aa8dbcac22fa762eb.bindTooltip(
+                `<div>
+                     ['NE Pacific St/UW Medical Center']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5cdd4449c20f4ae2b85f5af4fd080692 = L.marker(
+                [47.61137028, -122.34870149999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_12bf979a261f46459feaeedc2ac9e404);
+        
+    
+            var icon_c575de027b24447a9bda90942adbd6f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_5cdd4449c20f4ae2b85f5af4fd080692.setIcon(icon_c575de027b24447a9bda90942adbd6f0);
+        
+    
+        var popup_cd26949d526f40eb8475391b86e58795 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceea9265ab8743f7acdf969b1227bae7 = $(`<div id="html_ceea9265ab8743f7acdf969b1227bae7" style="width: 100.0%; height: 100.0%;"><h4>WF&#8209;03</h4>  <hr>  <p>Alugueis: 160 Depositos: 167</p> <hr> <h5> Maiores destinos </h5>  <p>1&#8209;WF&#8209;04 2&#8209;WF&#8209;01 3&#8209;WF&#8209;03 </p> <hr> <h5>Maiores chegadas </h5><p>1&#8209;WF&#8209;03 2&#8209;WF&#8209;01 3&#8209;WF&#8209;04</p></div>`)[0];
+            popup_cd26949d526f40eb8475391b86e58795.setContent(html_ceea9265ab8743f7acdf969b1227bae7);
+        
+
+        marker_5cdd4449c20f4ae2b85f5af4fd080692.bindPopup(popup_cd26949d526f40eb8475391b86e58795)
+        ;
+
+        
+    
+    
+            marker_5cdd4449c20f4ae2b85f5af4fd080692.bindTooltip(
+                `<div>
+                     ['Pier 66 / Alaskan Way & Bell St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

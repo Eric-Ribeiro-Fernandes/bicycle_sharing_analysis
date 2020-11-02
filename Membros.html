@@ -1,0 +1,1977 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5864b992743b4a58b1e6da858578535f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5864b992743b4a58b1e6da858578535f" ></div>
+        
+</body>
+<script>    
+    
+            var map_5864b992743b4a58b1e6da858578535f = L.map(
+                "map_5864b992743b4a58b1e6da858578535f",
+                {
+                    center: [47.618418, -122.35096399999999],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8b6dd9b7fe1f423495c4f7b84fc1314a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var marker_cd89bff073a644a190b8f8909ca61da9 = L.marker(
+                [47.618418, -122.35096399999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_7e6dd2e051a3411f92e37ca533eb62f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_cd89bff073a644a190b8f8909ca61da9.setIcon(icon_7e6dd2e051a3411f92e37ca533eb62f0);
+        
+    
+        var popup_f074194cb77f48e1b82b4eb5f7c7bd3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33548d0dd1d545fbbc6a7cadc5ace967 = $(`<div id="html_33548d0dd1d545fbbc6a7cadc5ace967" style="width: 100.0%; height: 100.0%;"><h4>BT&#8209;01</h4>  <hr>  <p>Users: 9392 <hr>Membros: 37.92%</p> <p>Homens: 78.46% <hr>Idade: 21.0 a 45.0</div>`)[0];
+            popup_f074194cb77f48e1b82b4eb5f7c7bd3a.setContent(html_33548d0dd1d545fbbc6a7cadc5ace967);
+        
+
+        marker_cd89bff073a644a190b8f8909ca61da9.bindPopup(popup_f074194cb77f48e1b82b4eb5f7c7bd3a)
+        ;
+
+        
+    
+    
+            marker_cd89bff073a644a190b8f8909ca61da9.bindTooltip(
+                `<div>
+                     ['3rd Ave & Broad St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ebd81f08d364a4188526df9129f63ae = L.marker(
+                [47.615829, -122.348564],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_ada93fbb47794425b5cd218f57160ff2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_3ebd81f08d364a4188526df9129f63ae.setIcon(icon_ada93fbb47794425b5cd218f57160ff2);
+        
+    
+        var popup_6da8e255a3a44991b015c3d888c181ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_280f149d78af46ecaea103e78c7ad0bc = $(`<div id="html_280f149d78af46ecaea103e78c7ad0bc" style="width: 100.0%; height: 100.0%;"><h4>BT&#8209;03</h4>  <hr>  <p>Users: 6568 <hr>Membros: 65.09%</p> <p>Homens: 84.47% <hr>Idade: 23.0 a 52.0</div>`)[0];
+            popup_6da8e255a3a44991b015c3d888c181ea.setContent(html_280f149d78af46ecaea103e78c7ad0bc);
+        
+
+        marker_3ebd81f08d364a4188526df9129f63ae.bindPopup(popup_6da8e255a3a44991b015c3d888c181ea)
+        ;
+
+        
+    
+    
+            marker_3ebd81f08d364a4188526df9129f63ae.bindTooltip(
+                `<div>
+                     ['2nd Ave & Vine St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d89be190792544dcb8a4b689eba895ac = L.marker(
+                [47.616094, -122.341102],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_ab1255984e494f96bbe897d7af190b12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_d89be190792544dcb8a4b689eba895ac.setIcon(icon_ab1255984e494f96bbe897d7af190b12);
+        
+    
+        var popup_d44e68d08abc412fb235f6e08d137693 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3766dd24b1f44f00b79aee05082014e0 = $(`<div id="html_3766dd24b1f44f00b79aee05082014e0" style="width: 100.0%; height: 100.0%;"><h4>BT&#8209;04</h4>  <hr>  <p>Users: 3819 <hr>Membros: 72.9%</p> <p>Homens: 88.61% <hr>Idade: 24.0 a 48.0</div>`)[0];
+            popup_d44e68d08abc412fb235f6e08d137693.setContent(html_3766dd24b1f44f00b79aee05082014e0);
+        
+
+        marker_d89be190792544dcb8a4b689eba895ac.bindPopup(popup_d44e68d08abc412fb235f6e08d137693)
+        ;
+
+        
+    
+    
+            marker_d89be190792544dcb8a4b689eba895ac.bindTooltip(
+                `<div>
+                     ['6th Ave & Blanchard St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80d74bacc48144db854c72294fd73b71 = L.marker(
+                [47.61311, -122.34420800000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_d0be1a2a4aa8458d9f48e6767eb14b80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_80d74bacc48144db854c72294fd73b71.setIcon(icon_d0be1a2a4aa8458d9f48e6767eb14b80);
+        
+    
+        var popup_39afd87b423d4375a2f10ef8c4175f30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e20f2f80fef4505b1b4227e5c0c6c62 = $(`<div id="html_2e20f2f80fef4505b1b4227e5c0c6c62" style="width: 100.0%; height: 100.0%;"><h4>BT&#8209;05</h4>  <hr>  <p>Users: 4986 <hr>Membros: 51.7%</p> <p>Homens: 70.13% <hr>Idade: 24.0 a 54.0</div>`)[0];
+            popup_39afd87b423d4375a2f10ef8c4175f30.setContent(html_2e20f2f80fef4505b1b4227e5c0c6c62);
+        
+
+        marker_80d74bacc48144db854c72294fd73b71.bindPopup(popup_39afd87b423d4375a2f10ef8c4175f30)
+        ;
+
+        
+    
+    
+            marker_80d74bacc48144db854c72294fd73b71.bindTooltip(
+                `<div>
+                     ['2nd Ave & Blanchard St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab1beeb498c44288a5662103de579b6a = L.marker(
+                [47.610731, -122.332447],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_1cabc536b15b482398b2ae4c119d7974 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_ab1beeb498c44288a5662103de579b6a.setIcon(icon_1cabc536b15b482398b2ae4c119d7974);
+        
+    
+        var popup_0bf3faf3a2e34f9d81c94977406e509e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_605e5be1eb024165a71e9902c63ad0c3 = $(`<div id="html_605e5be1eb024165a71e9902c63ad0c3" style="width: 100.0%; height: 100.0%;"><h4>CBD&#8209;03</h4>  <hr>  <p>Users: 4210 <hr>Membros: 55.08%</p> <p>Homens: 81.59% <hr>Idade: 23.0 a 48.0</div>`)[0];
+            popup_0bf3faf3a2e34f9d81c94977406e509e.setContent(html_605e5be1eb024165a71e9902c63ad0c3);
+        
+
+        marker_ab1beeb498c44288a5662103de579b6a.bindPopup(popup_0bf3faf3a2e34f9d81c94977406e509e)
+        ;
+
+        
+    
+    
+            marker_ab1beeb498c44288a5662103de579b6a.bindTooltip(
+                `<div>
+                     ['7th Ave & Union St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9aa354d3ac04afc8ade431a1bed6a2a = L.marker(
+                [47.609221000000005, -122.335596],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_06f4547211514f148d63c3fb8e657ee6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_d9aa354d3ac04afc8ade431a1bed6a2a.setIcon(icon_06f4547211514f148d63c3fb8e657ee6);
+        
+    
+        var popup_f8432141afdb4b4696c136ebeaca479f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e46ed40aad8a41cf9b624cc00065617f = $(`<div id="html_e46ed40aad8a41cf9b624cc00065617f" style="width: 100.0%; height: 100.0%;"><h4>CBD&#8209;04</h4>  <hr>  <p>Users: 2693 <hr>Membros: 64.5%</p> <p>Homens: 80.02% <hr>Idade: 22.0 a 45.0</div>`)[0];
+            popup_f8432141afdb4b4696c136ebeaca479f.setContent(html_e46ed40aad8a41cf9b624cc00065617f);
+        
+
+        marker_d9aa354d3ac04afc8ade431a1bed6a2a.bindPopup(popup_f8432141afdb4b4696c136ebeaca479f)
+        ;
+
+        
+    
+    
+            marker_d9aa354d3ac04afc8ade431a1bed6a2a.bindTooltip(
+                `<div>
+                     ['Union St & 4th Ave']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_533ea12b1f3541d2aac75ced7f2f3af0 = L.marker(
+                [47.604058, -122.3358],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_0fe6be75781a45ae822664617d72fee6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_533ea12b1f3541d2aac75ced7f2f3af0.setIcon(icon_0fe6be75781a45ae822664617d72fee6);
+        
+    
+        var popup_3be3bfc766574221bbc16f63df6ea33f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b66fa281b8324db8a8dcdbaef91dc3ef = $(`<div id="html_b66fa281b8324db8a8dcdbaef91dc3ef" style="width: 100.0%; height: 100.0%;"><h4>CBD&#8209;05</h4>  <hr>  <p>Users: 4540 <hr>Membros: 53.68%</p> <p>Homens: 69.14% <hr>Idade: 24.0 a 55.0</div>`)[0];
+            popup_3be3bfc766574221bbc16f63df6ea33f.setContent(html_b66fa281b8324db8a8dcdbaef91dc3ef);
+        
+
+        marker_533ea12b1f3541d2aac75ced7f2f3af0.bindPopup(popup_3be3bfc766574221bbc16f63df6ea33f)
+        ;
+
+        
+    
+    
+            marker_533ea12b1f3541d2aac75ced7f2f3af0.bindTooltip(
+                `<div>
+                     ['1st Ave & Marion St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b36a23229a44f48b498bf13c58bf06c = L.marker(
+                [47.60595, -122.33576799999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_a2aa4b1aea45468f8acc846a99dcc532 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_5b36a23229a44f48b498bf13c58bf06c.setIcon(icon_a2aa4b1aea45468f8acc846a99dcc532);
+        
+    
+        var popup_41370ea107e84bafbdc30a5a46b7beb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9f38a5f650641668e7f17b22fd40da0 = $(`<div id="html_a9f38a5f650641668e7f17b22fd40da0" style="width: 100.0%; height: 100.0%;"><h4>CBD&#8209;06</h4>  <hr>  <p>Users: 4336 <hr>Membros: 59.41%</p> <p>Homens: 84.2% <hr>Idade: 24.0 a 48.0</div>`)[0];
+            popup_41370ea107e84bafbdc30a5a46b7beb1.setContent(html_a9f38a5f650641668e7f17b22fd40da0);
+        
+
+        marker_5b36a23229a44f48b498bf13c58bf06c.bindPopup(popup_41370ea107e84bafbdc30a5a46b7beb1)
+        ;
+
+        
+    
+    
+            marker_5b36a23229a44f48b498bf13c58bf06c.bindTooltip(
+                `<div>
+                     ['2nd Ave & Spring St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a8b77e8fc514686bc5712251891e2b4 = L.marker(
+                [47.603509, -122.330409],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_bf65090421eb4541b0fe56131886dfa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_7a8b77e8fc514686bc5712251891e2b4.setIcon(icon_bf65090421eb4541b0fe56131886dfa4);
+        
+    
+        var popup_9a33ff7914f040edb6821acf02c918eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48ac7973a5b545f2b1607c127a000250 = $(`<div id="html_48ac7973a5b545f2b1607c127a000250" style="width: 100.0%; height: 100.0%;"><h4>CBD&#8209;07</h4>  <hr>  <p>Users: 2882 <hr>Membros: 68.6%</p> <p>Homens: 80.58% <hr>Idade: 22.0 a 56.0</div>`)[0];
+            popup_9a33ff7914f040edb6821acf02c918eb.setContent(html_48ac7973a5b545f2b1607c127a000250);
+        
+
+        marker_7a8b77e8fc514686bc5712251891e2b4.bindPopup(popup_9a33ff7914f040edb6821acf02c918eb)
+        ;
+
+        
+    
+    
+            marker_7a8b77e8fc514686bc5712251891e2b4.bindTooltip(
+                `<div>
+                     ['City Hall / 4th Ave & James St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_441864b26e5f45bc952e4a514c4bfcc7 = L.marker(
+                [47.610184999999994, -122.33964099999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_085b800b346e4651b569288122a60ac0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_441864b26e5f45bc952e4a514c4bfcc7.setIcon(icon_085b800b346e4651b569288122a60ac0);
+        
+    
+        var popup_0e436672229d44d287edef2cd6d6185c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbfcbcab23b044819d47f15378e067f4 = $(`<div id="html_bbfcbcab23b044819d47f15378e067f4" style="width: 100.0%; height: 100.0%;"><h4>CBD&#8209;13</h4>  <hr>  <p>Users: 8198 <hr>Membros: 51.28%</p> <p>Homens: 83.9% <hr>Idade: 22.0 a 47.0</div>`)[0];
+            popup_0e436672229d44d287edef2cd6d6185c.setContent(html_bbfcbcab23b044819d47f15378e067f4);
+        
+
+        marker_441864b26e5f45bc952e4a514c4bfcc7.bindPopup(popup_0e436672229d44d287edef2cd6d6185c)
+        ;
+
+        
+    
+    
+            marker_441864b26e5f45bc952e4a514c4bfcc7.bindTooltip(
+                `<div>
+                     ['2nd Ave & Pine St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9918f0a87b64458cb8776d8dd40defbc = L.marker(
+                [47.602103, -122.316923],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_cf5b6bd3168f4af5aa59dd2e4853f30e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_9918f0a87b64458cb8776d8dd40defbc.setIcon(icon_cf5b6bd3168f4af5aa59dd2e4853f30e);
+        
+    
+        var popup_406629629e89440fb4e05f32ab92081e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29dcc05f6d94457e94c4cdf8fc7fafda = $(`<div id="html_29dcc05f6d94457e94c4cdf8fc7fafda" style="width: 100.0%; height: 100.0%;"><h4>CD&#8209;01</h4>  <hr>  <p>Users: 958 <hr>Membros: 69.62%</p> <p>Homens: 56.37% <hr>Idade: 24.0 a 50.0</div>`)[0];
+            popup_406629629e89440fb4e05f32ab92081e.setContent(html_29dcc05f6d94457e94c4cdf8fc7fafda);
+        
+
+        marker_9918f0a87b64458cb8776d8dd40defbc.bindPopup(popup_406629629e89440fb4e05f32ab92081e)
+        ;
+
+        
+    
+    
+            marker_9918f0a87b64458cb8776d8dd40defbc.bindTooltip(
+                `<div>
+                     ['12th Ave & E Yesler Way']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87c8667c14bf43e58109962131aac9d7 = L.marker(
+                [47.618633, -122.325249],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_1b43d18a313e42079115147623b6d5fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_87c8667c14bf43e58109962131aac9d7.setIcon(icon_1b43d18a313e42079115147623b6d5fa);
+        
+    
+        var popup_d6e9ffa7c7114461af9e54d490a973f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d5be015afeb4a71ab974fdbee9f9818 = $(`<div id="html_8d5be015afeb4a71ab974fdbee9f9818" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;01</h4>  <hr>  <p>Users: 5441 <hr>Membros: 83.66%</p> <p>Homens: 66.06% <hr>Idade: 24.0 a 40.25</div>`)[0];
+            popup_d6e9ffa7c7114461af9e54d490a973f0.setContent(html_8d5be015afeb4a71ab974fdbee9f9818);
+        
+
+        marker_87c8667c14bf43e58109962131aac9d7.bindPopup(popup_d6e9ffa7c7114461af9e54d490a973f0)
+        ;
+
+        
+    
+    
+            marker_87c8667c14bf43e58109962131aac9d7.bindTooltip(
+                `<div>
+                     ['Summit Ave & E Denny Way']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6525baaff82f4dd88be762e262f5aceb = L.marker(
+                [47.622063, -122.321251],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_7661cc4685324fc49f01f8c22b7ca68e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_6525baaff82f4dd88be762e262f5aceb.setIcon(icon_7661cc4685324fc49f01f8c22b7ca68e);
+        
+    
+        var popup_b8ef50d68c4548208ad4138f3792b905 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29c79a30690c4bf4b1381c62a395997e = $(`<div id="html_29c79a30690c4bf4b1381c62a395997e" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;02</h4>  <hr>  <p>Users: 7685 <hr>Membros: 80.12%</p> <p>Homens: 76.99% <hr>Idade: 24.0 a 41.0</div>`)[0];
+            popup_b8ef50d68c4548208ad4138f3792b905.setContent(html_29c79a30690c4bf4b1381c62a395997e);
+        
+
+        marker_6525baaff82f4dd88be762e262f5aceb.bindPopup(popup_b8ef50d68c4548208ad4138f3792b905)
+        ;
+
+        
+    
+    
+            marker_6525baaff82f4dd88be762e262f5aceb.bindTooltip(
+                `<div>
+                     ['E Harrison St & Broadway Ave E']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30c0efa5c466492d9293e976ff5aee7b = L.marker(
+                [47.623367, -122.32527900000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_f2621589553d4e99b107dcb8ee7ad9b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_30c0efa5c466492d9293e976ff5aee7b.setIcon(icon_f2621589553d4e99b107dcb8ee7ad9b7);
+        
+    
+        var popup_68977f666d8b4d78a5ce9c2b8c889000 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7de30864a4c341da85373b513e59581c = $(`<div id="html_7de30864a4c341da85373b513e59581c" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;03</h4>  <hr>  <p>Users: 5241 <hr>Membros: 83.93%</p> <p>Homens: 78.79% <hr>Idade: 24.0 a 42.0</div>`)[0];
+            popup_68977f666d8b4d78a5ce9c2b8c889000.setContent(html_7de30864a4c341da85373b513e59581c);
+        
+
+        marker_30c0efa5c466492d9293e976ff5aee7b.bindPopup(popup_68977f666d8b4d78a5ce9c2b8c889000)
+        ;
+
+        
+    
+    
+            marker_30c0efa5c466492d9293e976ff5aee7b.bindTooltip(
+                `<div>
+                     ['Summit Ave E & E Republican St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fbed335b9ca4370bd2bec60fd66b472 = L.marker(
+                [47.620712, -122.31280500000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_a664d12c2595477ea19c94e211cde0e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_4fbed335b9ca4370bd2bec60fd66b472.setIcon(icon_a664d12c2595477ea19c94e211cde0e7);
+        
+    
+        var popup_18f18d93e6f2489289cda911d484c214 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70cf44c964a647538206152b35e987d8 = $(`<div id="html_70cf44c964a647538206152b35e987d8" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;05</h4>  <hr>  <p>Users: 6206 <hr>Membros: 83.11%</p> <p>Homens: 68.05% <hr>Idade: 24.0 a 44.0</div>`)[0];
+            popup_18f18d93e6f2489289cda911d484c214.setContent(html_70cf44c964a647538206152b35e987d8);
+        
+
+        marker_4fbed335b9ca4370bd2bec60fd66b472.bindPopup(popup_18f18d93e6f2489289cda911d484c214)
+        ;
+
+        
+    
+    
+            marker_4fbed335b9ca4370bd2bec60fd66b472.bindTooltip(
+                `<div>
+                     ['15th Ave E & E Thomas St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e95fabc176844c68a910722cdfccf145 = L.marker(
+                [47.618549, -122.31701699999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_7331a9537034436a8ded9ed5aed11967 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_e95fabc176844c68a910722cdfccf145.setIcon(icon_7331a9537034436a8ded9ed5aed11967);
+        
+    
+        var popup_7323fa4ee8df414daa1d7d2f27778f8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13d6f117c8b94d7884857c86f17e356a = $(`<div id="html_13d6f117c8b94d7884857c86f17e356a" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;06</h4>  <hr>  <p>Users: 3204 <hr>Membros: 88.48%</p> <p>Homens: 85.08% <hr>Idade: 25.0 a 39.0</div>`)[0];
+            popup_7323fa4ee8df414daa1d7d2f27778f8b.setContent(html_13d6f117c8b94d7884857c86f17e356a);
+        
+
+        marker_e95fabc176844c68a910722cdfccf145.bindPopup(popup_7323fa4ee8df414daa1d7d2f27778f8b)
+        ;
+
+        
+    
+    
+            marker_e95fabc176844c68a910722cdfccf145.bindTooltip(
+                `<div>
+                     ['12th Ave & E Denny Way']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe672308e8d64ceb82a7b56e6aa19dc5 = L.marker(
+                [47.61533, -122.311752],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_9af5b6aa60a14e3ba5f53c3e9edcf494 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_fe672308e8d64ceb82a7b56e6aa19dc5.setIcon(icon_9af5b6aa60a14e3ba5f53c3e9edcf494);
+        
+    
+        var popup_48ca18a50b5f49579bfd5733fa5b252d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc580e995322428c890ab8abdab08170 = $(`<div id="html_dc580e995322428c890ab8abdab08170" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;07</h4>  <hr>  <p>Users: 9466 <hr>Membros: 87.45%</p> <p>Homens: 71.13% <hr>Idade: 21.0 a 45.0</div>`)[0];
+            popup_48ca18a50b5f49579bfd5733fa5b252d.setContent(html_dc580e995322428c890ab8abdab08170);
+        
+
+        marker_fe672308e8d64ceb82a7b56e6aa19dc5.bindPopup(popup_48ca18a50b5f49579bfd5733fa5b252d)
+        ;
+
+        
+    
+    
+            marker_fe672308e8d64ceb82a7b56e6aa19dc5.bindTooltip(
+                `<div>
+                     ['E Pine St & 16th Ave']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a8e119c54e841218effd064999d5162 = L.marker(
+                [47.615486, -122.31824499999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_94c8478ff55045fc89f05bfb18ea80d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_9a8e119c54e841218effd064999d5162.setIcon(icon_94c8478ff55045fc89f05bfb18ea80d2);
+        
+    
+        var popup_64c68829717b4db5b93b9c3ef53b95a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e88b2fdcf990475885151327cf697e3f = $(`<div id="html_e88b2fdcf990475885151327cf697e3f" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;08</h4>  <hr>  <p>Users: 7690 <hr>Membros: 77.41%</p> <p>Homens: 74.13% <hr>Idade: 24.0 a 45.0</div>`)[0];
+            popup_64c68829717b4db5b93b9c3ef53b95a7.setContent(html_e88b2fdcf990475885151327cf697e3f);
+        
+
+        marker_9a8e119c54e841218effd064999d5162.bindPopup(popup_64c68829717b4db5b93b9c3ef53b95a7)
+        ;
+
+        
+    
+    
+            marker_9a8e119c54e841218effd064999d5162.bindTooltip(
+                `<div>
+                     ['Cal Anderson Park / 11th Ave & Pine St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c31c103714f243d4854b41964052c4ce = L.marker(
+                [47.615517, -122.322083],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_fe383b61bcba4af282b59f03160d336e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_c31c103714f243d4854b41964052c4ce.setIcon(icon_fe383b61bcba4af282b59f03160d336e);
+        
+    
+        var popup_0369893e6aa34e2aa843e2ab488c3f17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db0d8fdba6d64b21a0e536932dd7641c = $(`<div id="html_db0d8fdba6d64b21a0e536932dd7641c" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;09</h4>  <hr>  <p>Users: 4517 <hr>Membros: 72.02%</p> <p>Homens: 76.73% <hr>Idade: 22.0 a 41.0</div>`)[0];
+            popup_0369893e6aa34e2aa843e2ab488c3f17.setContent(html_db0d8fdba6d64b21a0e536932dd7641c);
+        
+
+        marker_c31c103714f243d4854b41964052c4ce.bindPopup(popup_0369893e6aa34e2aa843e2ab488c3f17)
+        ;
+
+        
+    
+    
+            marker_c31c103714f243d4854b41964052c4ce.bindTooltip(
+                `<div>
+                     ['Harvard Ave & E Pine St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69407292e8b14107839f2d7a1a004207 = L.marker(
+                [47.615456, -122.326729],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_584e751a226d4c368f6ed3731eb26ac2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_69407292e8b14107839f2d7a1a004207.setIcon(icon_584e751a226d4c368f6ed3731eb26ac2);
+        
+    
+        var popup_1ea218931946457a968b87216504e2bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e16731a38b364e3ba80c9adac0c2dee5 = $(`<div id="html_e16731a38b364e3ba80c9adac0c2dee5" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;12</h4>  <hr>  <p>Users: 4826 <hr>Membros: 79.07%</p> <p>Homens: 80.66% <hr>Idade: 23.0 a 41.0</div>`)[0];
+            popup_1ea218931946457a968b87216504e2bd.setContent(html_e16731a38b364e3ba80c9adac0c2dee5);
+        
+
+        marker_69407292e8b14107839f2d7a1a004207.bindPopup(popup_1ea218931946457a968b87216504e2bd)
+        ;
+
+        
+    
+    
+            marker_69407292e8b14107839f2d7a1a004207.bindTooltip(
+                `<div>
+                     ['Bellevue Ave & E Pine St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b4b474f5170445489e1606419ef77e8 = L.marker(
+                [47.624142, -122.31681100000002],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_08fd5ff987174a42b77d4697e374e954 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_5b4b474f5170445489e1606419ef77e8.setIcon(icon_08fd5ff987174a42b77d4697e374e954);
+        
+    
+        var popup_72d0b339bc7a473e8c348a3408f20f80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8234d5e883644017936cb3d57f5dc99b = $(`<div id="html_8234d5e883644017936cb3d57f5dc99b" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;15</h4>  <hr>  <p>Users: 5426 <hr>Membros: 78.55%</p> <p>Homens: 69.5% <hr>Idade: 24.0 a 42.0</div>`)[0];
+            popup_72d0b339bc7a473e8c348a3408f20f80.setContent(html_8234d5e883644017936cb3d57f5dc99b);
+        
+
+        marker_5b4b474f5170445489e1606419ef77e8.bindPopup(popup_72d0b339bc7a473e8c348a3408f20f80)
+        ;
+
+        
+    
+    
+            marker_5b4b474f5170445489e1606419ef77e8.bindTooltip(
+                `<div>
+                     ['12th Ave & E Mercer St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af52464bf1314e30bcc87fce514f63eb = L.marker(
+                [47.624297999999996, -122.33961699999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_3f791ffa314a46a6b1849b4da7180211 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_af52464bf1314e30bcc87fce514f63eb.setIcon(icon_3f791ffa314a46a6b1849b4da7180211);
+        
+    
+        var popup_cd2c3cdcff0149eeb7035c0ad27c9f43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f27ffa8298b74e8c9238c2f33dbbe08a = $(`<div id="html_f27ffa8298b74e8c9238c2f33dbbe08a" style="width: 100.0%; height: 100.0%;"><h4>DPD&#8209;01</h4>  <hr>  <p>Users: 4177 <hr>Membros: 75.25%</p> <p>Homens: 92.4% <hr>Idade: 24.0 a 44.0</div>`)[0];
+            popup_cd2c3cdcff0149eeb7035c0ad27c9f43.setContent(html_f27ffa8298b74e8c9238c2f33dbbe08a);
+        
+
+        marker_af52464bf1314e30bcc87fce514f63eb.bindPopup(popup_cd2c3cdcff0149eeb7035c0ad27c9f43)
+        ;
+
+        
+    
+    
+            marker_af52464bf1314e30bcc87fce514f63eb.bindTooltip(
+                `<div>
+                     ['9th Ave N & Mercer St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e09da7c07304c569fa4e7680687c57d = L.marker(
+                [47.663509000000005, -122.28411899999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_b92b341d77624171903e3a6e4f788f9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_5e09da7c07304c569fa4e7680687c57d.setIcon(icon_b92b341d77624171903e3a6e4f788f9c);
+        
+    
+        var popup_2c17868b8a0940609e25f3f498ec2a60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_312906d579dc495e91eb6028d4da0b74 = $(`<div id="html_312906d579dc495e91eb6028d4da0b74" style="width: 100.0%; height: 100.0%;"><h4>DPD&#8209;03</h4>  <hr>  <p>Users: 1290 <hr>Membros: 52.64%</p> <p>Homens: 54.05% <hr>Idade: 25.0 a 44.0</div>`)[0];
+            popup_2c17868b8a0940609e25f3f498ec2a60.setContent(html_312906d579dc495e91eb6028d4da0b74);
+        
+
+        marker_5e09da7c07304c569fa4e7680687c57d.bindPopup(popup_2c17868b8a0940609e25f3f498ec2a60)
+        ;
+
+        
+    
+    
+            marker_5e09da7c07304c569fa4e7680687c57d.bindTooltip(
+                `<div>
+                     ["Children's Hospital / Sandpoint Way NE & 40th Ave NE"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_465bc92048b9417193ae9af13cba7c69 = L.marker(
+                [47.627643, -122.332576],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_111f0da2cffe4387ba15c3c1a1a6507d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_465bc92048b9417193ae9af13cba7c69.setIcon(icon_111f0da2cffe4387ba15c3c1a1a6507d);
+        
+    
+        var popup_7b1b9d50e2ef49069191481da7b4d9b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b4480cbe06649019ecfe3f0f24b602b = $(`<div id="html_5b4480cbe06649019ecfe3f0f24b602b" style="width: 100.0%; height: 100.0%;"><h4>EL&#8209;01</h4>  <hr>  <p>Users: 2968 <hr>Membros: 43.87%</p> <p>Homens: 48.62% <hr>Idade: 24.0 a 53.0</div>`)[0];
+            popup_7b1b9d50e2ef49069191481da7b4d9b3.setContent(html_5b4480cbe06649019ecfe3f0f24b602b);
+        
+
+        marker_465bc92048b9417193ae9af13cba7c69.bindPopup(popup_7b1b9d50e2ef49069191481da7b4d9b3)
+        ;
+
+        
+    
+    
+            marker_465bc92048b9417193ae9af13cba7c69.bindTooltip(
+                `<div>
+                     ['Fred Hutchinson Cancer Research Center / Fairview Ave N & Ward St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e247b7297a74434786b62ba27b36b2f9 = L.marker(
+                [47.634831, -122.32663400000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_79af5a0157744bc48ac2201c246cbbf4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_e247b7297a74434786b62ba27b36b2f9.setIcon(icon_79af5a0157744bc48ac2201c246cbbf4);
+        
+    
+        var popup_01fb143ee5ce460c9ae704ac08633f90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72ea433e3e314c7a8b2cdaad2c792a26 = $(`<div id="html_72ea433e3e314c7a8b2cdaad2c792a26" style="width: 100.0%; height: 100.0%;"><h4>EL&#8209;03</h4>  <hr>  <p>Users: 4821 <hr>Membros: 63.56%</p> <p>Homens: 55.42% <hr>Idade: 25.0 a 49.0</div>`)[0];
+            popup_01fb143ee5ce460c9ae704ac08633f90.setContent(html_72ea433e3e314c7a8b2cdaad2c792a26);
+        
+
+        marker_e247b7297a74434786b62ba27b36b2f9.bindPopup(popup_01fb143ee5ce460c9ae704ac08633f90)
+        ;
+
+        
+    
+    
+            marker_e247b7297a74434786b62ba27b36b2f9.bindTooltip(
+                `<div>
+                     ['E Blaine St & Fairview Ave E']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d82768560094ba189511c904b88e1ca = L.marker(
+                [47.64909, -122.32298300000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_edb8cba61a674195a4ea01360620a941 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_6d82768560094ba189511c904b88e1ca.setIcon(icon_edb8cba61a674195a4ea01360620a941);
+        
+    
+        var popup_460a3ae7630d45b9b8ccbdb3337c55db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c563f10d77a4d7cb08fba027f78f553 = $(`<div id="html_7c563f10d77a4d7cb08fba027f78f553" style="width: 100.0%; height: 100.0%;"><h4>EL&#8209;05</h4>  <hr>  <p>Users: 3104 <hr>Membros: 37.66%</p> <p>Homens: 55.43% <hr>Idade: 24.0 a 40.0</div>`)[0];
+            popup_460a3ae7630d45b9b8ccbdb3337c55db.setContent(html_7c563f10d77a4d7cb08fba027f78f553);
+        
+
+        marker_6d82768560094ba189511c904b88e1ca.bindPopup(popup_460a3ae7630d45b9b8ccbdb3337c55db)
+        ;
+
+        
+    
+    
+            marker_6d82768560094ba189511c904b88e1ca.bindTooltip(
+                `<div>
+                     ['Eastlake Ave E & E Allison St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d34f821963f9456cb226d79efe48d5da = L.marker(
+                [47.607281, -122.32478300000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_b7fb17ebed62418cbd551bc8ab331cef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_d34f821963f9456cb226d79efe48d5da.setIcon(icon_b7fb17ebed62418cbd551bc8ab331cef);
+        
+    
+        var popup_9713aa68c5454bbdaf8e71d140859b25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26b0157cf2244531b173d45592ab79ac = $(`<div id="html_26b0157cf2244531b173d45592ab79ac" style="width: 100.0%; height: 100.0%;"><h4>FH&#8209;01</h4>  <hr>  <p>Users: 2349 <hr>Membros: 80.54%</p> <p>Homens: 81.77% <hr>Idade: 22.0 a 42.0</div>`)[0];
+            popup_9713aa68c5454bbdaf8e71d140859b25.setContent(html_26b0157cf2244531b173d45592ab79ac);
+        
+
+        marker_d34f821963f9456cb226d79efe48d5da.bindPopup(popup_9713aa68c5454bbdaf8e71d140859b25)
+        ;
+
+        
+    
+    
+            marker_d34f821963f9456cb226d79efe48d5da.bindTooltip(
+                `<div>
+                     ['Frye Art Museum / Terry Ave & Columbia St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b695bbce5d7472c8521804eebdf3782 = L.marker(
+                [47.609239, -122.31665100000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_cb9ab6ed26ee48d4a1aa614be9d6c312 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_9b695bbce5d7472c8521804eebdf3782.setIcon(icon_cb9ab6ed26ee48d4a1aa614be9d6c312);
+        
+    
+        var popup_8c8591e0acee4bab9ff76c32d53a6bba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e32607f989d41548f431636d491da3d = $(`<div id="html_8e32607f989d41548f431636d491da3d" style="width: 100.0%; height: 100.0%;"><h4>FH&#8209;04</h4>  <hr>  <p>Users: 3365 <hr>Membros: 78.22%</p> <p>Homens: 78.57% <hr>Idade: 24.0 a 52.0</div>`)[0];
+            popup_8c8591e0acee4bab9ff76c32d53a6bba.setContent(html_8e32607f989d41548f431636d491da3d);
+        
+
+        marker_9b695bbce5d7472c8521804eebdf3782.bindPopup(popup_8c8591e0acee4bab9ff76c32d53a6bba)
+        ;
+
+        
+    
+    
+            marker_9b695bbce5d7472c8521804eebdf3782.bindTooltip(
+                `<div>
+                     ['Seattle University / E Columbia St & 12th Ave']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_05315d48a9e345289aa6a1819b9ab92b = L.marker(
+                [47.598488, -122.326412],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_62448f7d3f9c434b8cd8ea7ad7bb59fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_05315d48a9e345289aa6a1819b9ab92b.setIcon(icon_62448f7d3f9c434b8cd8ea7ad7bb59fe);
+        
+    
+        var popup_f3165214dc9f4990815e0b06ff5342a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e955c6babd34131a16ecb0c25066681 = $(`<div id="html_4e955c6babd34131a16ecb0c25066681" style="width: 100.0%; height: 100.0%;"><h4>ID&#8209;04</h4>  <hr>  <p>Users: 2182 <hr>Membros: 36.07%</p> <p>Homens: 74.84% <hr>Idade: 25.0 a 52.5</div>`)[0];
+            popup_f3165214dc9f4990815e0b06ff5342a1.setContent(html_4e955c6babd34131a16ecb0c25066681);
+        
+
+        marker_05315d48a9e345289aa6a1819b9ab92b.bindPopup(popup_f3165214dc9f4990815e0b06ff5342a1)
+        ;
+
+        
+    
+    
+            marker_05315d48a9e345289aa6a1819b9ab92b.bindTooltip(
+                `<div>
+                     ['6th Ave S & S King St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4bce8b52aa44b3f993afedd036495c9 = L.marker(
+                [47.600757, -122.33294599999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_33971fba905349d4b75cc14ff3e0a994 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_c4bce8b52aa44b3f993afedd036495c9.setIcon(icon_33971fba905349d4b75cc14ff3e0a994);
+        
+    
+        var popup_1e9b6715d9994cd591b5ad0f4bbd59de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_154d6086c9494d578ff88a2c7b369d9f = $(`<div id="html_154d6086c9494d578ff88a2c7b369d9f" style="width: 100.0%; height: 100.0%;"><h4>PS&#8209;04</h4>  <hr>  <p>Users: 4585 <hr>Membros: 50.99%</p> <p>Homens: 74.38% <hr>Idade: 22.0 a 46.0</div>`)[0];
+            popup_1e9b6715d9994cd591b5ad0f4bbd59de.setContent(html_154d6086c9494d578ff88a2c7b369d9f);
+        
+
+        marker_c4bce8b52aa44b3f993afedd036495c9.bindPopup(popup_1e9b6715d9994cd591b5ad0f4bbd59de)
+        ;
+
+        
+    
+    
+            marker_c4bce8b52aa44b3f993afedd036495c9.bindTooltip(
+                `<div>
+                     ['Occidental Park / Occidental Ave S & S Washington St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f91019a362ae4b63b71ca6098e7d1747 = L.marker(
+                [47.598994, -122.32968400000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_ae97762b8791459b87b97e45d4d1215e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_f91019a362ae4b63b71ca6098e7d1747.setIcon(icon_ae97762b8791459b87b97e45d4d1215e);
+        
+    
+        var popup_7fcde4ae62e244feaa8e000bcce7820e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81cb06ecac484abab79ad98fde7bc4c3 = $(`<div id="html_81cb06ecac484abab79ad98fde7bc4c3" style="width: 100.0%; height: 100.0%;"><h4>PS&#8209;05</h4>  <hr>  <p>Users: 3292 <hr>Membros: 63.7%</p> <p>Homens: 85.41% <hr>Idade: 23.0 a 57.0</div>`)[0];
+            popup_7fcde4ae62e244feaa8e000bcce7820e.setContent(html_81cb06ecac484abab79ad98fde7bc4c3);
+        
+
+        marker_f91019a362ae4b63b71ca6098e7d1747.bindPopup(popup_7fcde4ae62e244feaa8e000bcce7820e)
+        ;
+
+        
+    
+    
+            marker_f91019a362ae4b63b71ca6098e7d1747.bindTooltip(
+                `<div>
+                     ['King Street Station Plaza / 2nd Ave Extension S & S Jackson St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e2c4ea09d044d8b806a5878c124a76e = L.marker(
+                [47.619859000000005, -122.330304],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_e16d257e9a9947cf817b861ff3abac67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_2e2c4ea09d044d8b806a5878c124a76e.setIcon(icon_e16d257e9a9947cf817b861ff3abac67);
+        
+    
+        var popup_70b48c112743478086c9562869e1e065 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_744ba9e7f9954dc7b41d2c996cadd2ab = $(`<div id="html_744ba9e7f9954dc7b41d2c996cadd2ab" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;01</h4>  <hr>  <p>Users: 6401 <hr>Membros: 75.39%</p> <p>Homens: 84.29% <hr>Idade: 22.0 a 44.0</div>`)[0];
+            popup_70b48c112743478086c9562869e1e065.setContent(html_744ba9e7f9954dc7b41d2c996cadd2ab);
+        
+
+        marker_2e2c4ea09d044d8b806a5878c124a76e.bindPopup(popup_70b48c112743478086c9562869e1e065)
+        ;
+
+        
+    
+    
+            marker_2e2c4ea09d044d8b806a5878c124a76e.bindTooltip(
+                `<div>
+                     ['REI / Yale Ave N & John St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4de3b6a4f4644277afa58e0448495e56 = L.marker(
+                [47.627734999999994, -122.34223200000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_9b7924494d1b4d3f97ecddb6da1d2924 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_4de3b6a4f4644277afa58e0448495e56.setIcon(icon_9b7924494d1b4d3f97ecddb6da1d2924);
+        
+    
+        var popup_0dea17fd5e3f4cccaedede92bc83bcdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_462d09759a5e471aadaf81d189f7b6ad = $(`<div id="html_462d09759a5e471aadaf81d189f7b6ad" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;02</h4>  <hr>  <p>Users: 5917 <hr>Membros: 73.26%</p> <p>Homens: 81.31% <hr>Idade: 24.0 a 45.0</div>`)[0];
+            popup_0dea17fd5e3f4cccaedede92bc83bcdc.setContent(html_462d09759a5e471aadaf81d189f7b6ad);
+        
+
+        marker_4de3b6a4f4644277afa58e0448495e56.bindPopup(popup_0dea17fd5e3f4cccaedede92bc83bcdc)
+        ;
+
+        
+    
+    
+            marker_4de3b6a4f4644277afa58e0448495e56.bindTooltip(
+                `<div>
+                     ['Dexter Ave N & Aloha St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2788eb40fa134e5b94df20138505e73a = L.marker(
+                [47.623165, -122.33820300000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_a2869d35f4044bb9b93b78e912a36c85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_2788eb40fa134e5b94df20138505e73a.setIcon(icon_a2869d35f4044bb9b93b78e912a36c85);
+        
+    
+        var popup_ced5f2d920484ae19a01fbe247bb0c26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99cdd741321b4f9b981090c100d36530 = $(`<div id="html_99cdd741321b4f9b981090c100d36530" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;04</h4>  <hr>  <p>Users: 4512 <hr>Membros: 73.96%</p> <p>Homens: 88.88% <hr>Idade: 22.0 a 45.0</div>`)[0];
+            popup_ced5f2d920484ae19a01fbe247bb0c26.setContent(html_99cdd741321b4f9b981090c100d36530);
+        
+
+        marker_2788eb40fa134e5b94df20138505e73a.bindPopup(popup_ced5f2d920484ae19a01fbe247bb0c26)
+        ;
+
+        
+    
+    
+            marker_2788eb40fa134e5b94df20138505e73a.bindTooltip(
+                `<div>
+                     ['Republican St & Westlake Ave N']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c21d02fdb6f40ca8c43d6a9f6067295 = L.marker(
+                [47.618320000000004, -122.33891299999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_435a092d60ed432cb99b96de571e7e6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_3c21d02fdb6f40ca8c43d6a9f6067295.setIcon(icon_435a092d60ed432cb99b96de571e7e6f);
+        
+    
+        var popup_7d41542688fe40adb949b80fbd72f3f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ab4e152339b4807a28a7eed4e24217e = $(`<div id="html_7ab4e152339b4807a28a7eed4e24217e" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;07</h4>  <hr>  <p>Users: 5631 <hr>Membros: 76.1%</p> <p>Homens: 86.44% <hr>Idade: 24.0 a 45.0</div>`)[0];
+            popup_7d41542688fe40adb949b80fbd72f3f6.setContent(html_7ab4e152339b4807a28a7eed4e24217e);
+        
+
+        marker_3c21d02fdb6f40ca8c43d6a9f6067295.bindPopup(popup_7d41542688fe40adb949b80fbd72f3f6)
+        ;
+
+        
+    
+    
+            marker_3c21d02fdb6f40ca8c43d6a9f6067295.bindTooltip(
+                `<div>
+                     ['PATH / 9th Ave & Westlake Ave']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3cfe7fc8f0448788f45ce72a7a0a98a = L.marker(
+                [47.613628000000006, -122.337341],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_aa6763070cba4fd38797cf3c4217b6d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_b3cfe7fc8f0448788f45ce72a7a0a98a.setIcon(icon_aa6763070cba4fd38797cf3c4217b6d2);
+        
+    
+        var popup_31ee17b7b5c94123b7a860d3472360e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fe0726995154a3294467fcbd70c568f = $(`<div id="html_1fe0726995154a3294467fcbd70c568f" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;15</h4>  <hr>  <p>Users: 8188 <hr>Membros: 66.6%</p> <p>Homens: 87.77% <hr>Idade: 22.0 a 50.0</div>`)[0];
+            popup_31ee17b7b5c94123b7a860d3472360e8.setContent(html_1fe0726995154a3294467fcbd70c568f);
+        
+
+        marker_b3cfe7fc8f0448788f45ce72a7a0a98a.bindPopup(popup_31ee17b7b5c94123b7a860d3472360e8)
+        ;
+
+        
+    
+    
+            marker_b3cfe7fc8f0448788f45ce72a7a0a98a.bindTooltip(
+                `<div>
+                     ['Westlake Ave & 6th Ave']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c49601da81b41fcb0869d117a8f3e58 = L.marker(
+                [47.613715, -122.331777],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_a9eab6688f5d407181ac8bb25fc7a04c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_9c49601da81b41fcb0869d117a8f3e58.setIcon(icon_a9eab6688f5d407181ac8bb25fc7a04c);
+        
+    
+        var popup_79350bc8ffbd48a4a827a9e260110a13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7db20c1e11944ded9dd875a2d6ff5fb0 = $(`<div id="html_7db20c1e11944ded9dd875a2d6ff5fb0" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;16</h4>  <hr>  <p>Users: 4628 <hr>Membros: 71.76%</p> <p>Homens: 87.74% <hr>Idade: 23.0 a 41.0</div>`)[0];
+            popup_79350bc8ffbd48a4a827a9e260110a13.setContent(html_7db20c1e11944ded9dd875a2d6ff5fb0);
+        
+
+        marker_9c49601da81b41fcb0869d117a8f3e58.bindPopup(popup_79350bc8ffbd48a4a827a9e260110a13)
+        ;
+
+        
+    
+    
+            marker_9c49601da81b41fcb0869d117a8f3e58.bindTooltip(
+                `<div>
+                     ['Pine St & 9th Ave']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bdc88602ce7457ba63bff54b22eb7ab = L.marker(
+                [47.626041, -122.335831],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_6dee7e02ee3a4cbd98a62dd9206e38b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_4bdc88602ce7457ba63bff54b22eb7ab.setIcon(icon_6dee7e02ee3a4cbd98a62dd9206e38b3);
+        
+    
+        var popup_15b46f907f31466cac8d9a6c6d21905d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15d03258ad7b46e3928e709eda150553 = $(`<div id="html_15d03258ad7b46e3928e709eda150553" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;17</h4>  <hr>  <p>Users: 4897 <hr>Membros: 28.9%</p> <p>Homens: 66.43% <hr>Idade: 24.0 a 49.0</div>`)[0];
+            popup_15b46f907f31466cac8d9a6c6d21905d.setContent(html_15d03258ad7b46e3928e709eda150553);
+        
+
+        marker_4bdc88602ce7457ba63bff54b22eb7ab.bindPopup(popup_15b46f907f31466cac8d9a6c6d21905d)
+        ;
+
+        
+    
+    
+            marker_4bdc88602ce7457ba63bff54b22eb7ab.bindTooltip(
+                `<div>
+                     ['Lake Union Park / Valley St & Boren Ave N']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7c8a16e2fdf4194a23dbb5abe553c9e = L.marker(
+                [47.618285, -122.342205],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_d4767c63bce14f24ae33b6dfecfd9e0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_e7c8a16e2fdf4194a23dbb5abe553c9e.setIcon(icon_d4767c63bce14f24ae33b6dfecfd9e0d);
+        
+    
+        var popup_d5cad48ced814bb383686bf72ad89de6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a90c929ea6b14dfcb82bf97e579839c5 = $(`<div id="html_a90c929ea6b14dfcb82bf97e579839c5" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;18</h4>  <hr>  <p>Users: 3461 <hr>Membros: 55.56%</p> <p>Homens: 87.0% <hr>Idade: 26.0 a 40.0</div>`)[0];
+            popup_d5cad48ced814bb383686bf72ad89de6.setContent(html_a90c929ea6b14dfcb82bf97e579839c5);
+        
+
+        marker_e7c8a16e2fdf4194a23dbb5abe553c9e.bindPopup(popup_d5cad48ced814bb383686bf72ad89de6)
+        ;
+
+        
+    
+    
+            marker_e7c8a16e2fdf4194a23dbb5abe553c9e.bindTooltip(
+                `<div>
+                     ['Dexter Ave & Denny Way']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_967c65baba224c3f9d6581aeb4e41542 = L.marker(
+                [47.622277000000004, -122.35523],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_645d733fb14f4a5d91f75e1b71596bd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_967c65baba224c3f9d6581aeb4e41542.setIcon(icon_645d733fb14f4a5d91f75e1b71596bd2);
+        
+    
+        var popup_39087952c519443cb8c6dda106a20e4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7f8ec01288749b995dffa07144084a9 = $(`<div id="html_c7f8ec01288749b995dffa07144084a9" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;19</h4>  <hr>  <p>Users: 6402 <hr>Membros: 56.64%</p> <p>Homens: 73.94% <hr>Idade: 21.0 a 46.0</div>`)[0];
+            popup_39087952c519443cb8c6dda106a20e4a.setContent(html_c7f8ec01288749b995dffa07144084a9);
+        
+
+        marker_967c65baba224c3f9d6581aeb4e41542.bindPopup(popup_39087952c519443cb8c6dda106a20e4a)
+        ;
+
+        
+    
+    
+            marker_967c65baba224c3f9d6581aeb4e41542.bindTooltip(
+                `<div>
+                     ['Key Arena / 1st Ave N & Harrison St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82a9af3ccdf04d6591d292f1b7ac406c = L.marker(
+                [47.61626, -122.33381499999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_c25a6caac0a7490c96d8996015b17f59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_82a9af3ccdf04d6591d292f1b7ac406c.setIcon(icon_c25a6caac0a7490c96d8996015b17f59);
+        
+    
+        var popup_135511720352423cb789cf46875c268d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d908ae1cd03f4ee7b1d4fbca7d6430df = $(`<div id="html_d908ae1cd03f4ee7b1d4fbca7d6430df" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;20</h4>  <hr>  <p>Users: 2134 <hr>Membros: 79.43%</p> <p>Homens: 93.92% <hr>Idade: 24.0 a 44.0</div>`)[0];
+            popup_135511720352423cb789cf46875c268d.setContent(html_d908ae1cd03f4ee7b1d4fbca7d6430df);
+        
+
+        marker_82a9af3ccdf04d6591d292f1b7ac406c.bindPopup(popup_135511720352423cb789cf46875c268d)
+        ;
+
+        
+    
+    
+            marker_82a9af3ccdf04d6591d292f1b7ac406c.bindTooltip(
+                `<div>
+                     ['Terry Ave & Stewart St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8d500914d3041b792d61b306c75e0ba = L.marker(
+                [47.624769, -122.339408],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_aa7d6e5bb4524f2fad014f60b8bb34fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_a8d500914d3041b792d61b306c75e0ba.setIcon(icon_aa7d6e5bb4524f2fad014f60b8bb34fb);
+        
+    
+        var popup_ef869d536bfc4f71a1789b6ccc998473 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_929e61bd88944d55a3c580ef84969b3d = $(`<div id="html_929e61bd88944d55a3c580ef84969b3d" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;21</h4>  <hr>  <p>Users: 863 <hr>Membros: 43.68%</p> <p>Homens: 78.78% <hr>Idade: 24.0 a 46.0</div>`)[0];
+            popup_ef869d536bfc4f71a1789b6ccc998473.setContent(html_929e61bd88944d55a3c580ef84969b3d);
+        
+
+        marker_a8d500914d3041b792d61b306c75e0ba.bindPopup(popup_ef869d536bfc4f71a1789b6ccc998473)
+        ;
+
+        
+    
+    
+            marker_a8d500914d3041b792d61b306c75e0ba.bindTooltip(
+                `<div>
+                     ['Mercer St & 9th Ave N']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7edd824cbe1048dcb9ff5fd4980feb8a = L.marker(
+                [47.666145, -122.301491],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_13c0c3a363214a0082b07b922850360b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_7edd824cbe1048dcb9ff5fd4980feb8a.setIcon(icon_13c0c3a363214a0082b07b922850360b);
+        
+    
+        var popup_2259b9220e8d44cdae12ef26bede39c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffb5cf40c73044ef89ca03b4ef6b91d4 = $(`<div id="html_ffb5cf40c73044ef89ca03b4ef6b91d4" style="width: 100.0%; height: 100.0%;"><h4>UD&#8209;01</h4>  <hr>  <p>Users: 3243 <hr>Membros: 40.36%</p> <p>Homens: 71.12% <hr>Idade: 24.0 a 40.0</div>`)[0];
+            popup_2259b9220e8d44cdae12ef26bede39c2.setContent(html_ffb5cf40c73044ef89ca03b4ef6b91d4);
+        
+
+        marker_7edd824cbe1048dcb9ff5fd4980feb8a.bindPopup(popup_2259b9220e8d44cdae12ef26bede39c2)
+        ;
+
+        
+    
+    
+            marker_7edd824cbe1048dcb9ff5fd4980feb8a.bindTooltip(
+                `<div>
+                     ['Burke-Gilman Trail / NE Blakeley St & 24th Ave NE']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7842e3144c54e17b43f240444983ddd = L.marker(
+                [47.658288, -122.31333400000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_f72ca4e22a894518aa40e421f33cfa05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d7842e3144c54e17b43f240444983ddd.setIcon(icon_f72ca4e22a894518aa40e421f33cfa05);
+        
+    
+        var popup_61f269b117024b1c931c0cd1f9896539 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_596293121b4349c89cf2c59e748caebd = $(`<div id="html_596293121b4349c89cf2c59e748caebd" style="width: 100.0%; height: 100.0%;"><h4>UD&#8209;02</h4>  <hr>  <p>Users: 1147 <hr>Membros: 43.16%</p> <p>Homens: 84.65% <hr>Idade: 23.0 a 40.0</div>`)[0];
+            popup_61f269b117024b1c931c0cd1f9896539.setContent(html_596293121b4349c89cf2c59e748caebd);
+        
+
+        marker_d7842e3144c54e17b43f240444983ddd.bindPopup(popup_61f269b117024b1c931c0cd1f9896539)
+        ;
+
+        
+    
+    
+            marker_d7842e3144c54e17b43f240444983ddd.bindTooltip(
+                `<div>
+                     ['NE 42nd St & University Way NE']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84a295c6f7dc409fb006cdc501ef155c = L.marker(
+                [47.656395, -122.31562],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_2fe641cb45fb44d491a6e942245548f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_84a295c6f7dc409fb006cdc501ef155c.setIcon(icon_2fe641cb45fb44d491a6e942245548f2);
+        
+    
+        var popup_45f86dd387184923ab1b7e25bac60a04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_401f044f2c304c0da8d7dad91cb13c3d = $(`<div id="html_401f044f2c304c0da8d7dad91cb13c3d" style="width: 100.0%; height: 100.0%;"><h4>UD&#8209;04</h4>  <hr>  <p>Users: 3047 <hr>Membros: 40.14%</p> <p>Homens: 76.7% <hr>Idade: 23.0 a 36.0</div>`)[0];
+            popup_45f86dd387184923ab1b7e25bac60a04.setContent(html_401f044f2c304c0da8d7dad91cb13c3d);
+        
+
+        marker_84a295c6f7dc409fb006cdc501ef155c.bindPopup(popup_45f86dd387184923ab1b7e25bac60a04)
+        ;
+
+        
+    
+    
+            marker_84a295c6f7dc409fb006cdc501ef155c.bindTooltip(
+                `<div>
+                     ['12th Ave & NE Campus Pkwy']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_145a5e932da44cae8a338960f4e5fdfc = L.marker(
+                [47.663143, -122.31508600000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_5047208d9a534aecbf00bf9334c9f519 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_145a5e932da44cae8a338960f4e5fdfc.setIcon(icon_5047208d9a534aecbf00bf9334c9f519);
+        
+    
+        var popup_946095d7b1484e6b8ba231189e0643c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcd20b270702450b972bd76455b4603f = $(`<div id="html_bcd20b270702450b972bd76455b4603f" style="width: 100.0%; height: 100.0%;"><h4>UD&#8209;07</h4>  <hr>  <p>Users: 2115 <hr>Membros: 51.54%</p> <p>Homens: 79.08% <hr>Idade: 23.0 a 37.0</div>`)[0];
+            popup_946095d7b1484e6b8ba231189e0643c2.setContent(html_bcd20b270702450b972bd76455b4603f);
+        
+
+        marker_145a5e932da44cae8a338960f4e5fdfc.bindPopup(popup_946095d7b1484e6b8ba231189e0643c2)
+        ;
+
+        
+    
+    
+            marker_145a5e932da44cae8a338960f4e5fdfc.bindTooltip(
+                `<div>
+                     ['NE 47th St & 12th Ave NE']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38e614666bbc428e916b19a3f186cf65 = L.marker(
+                [47.660268, -122.304826],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_552720c429a74bd786cb528bfa9317e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_38e614666bbc428e916b19a3f186cf65.setIcon(icon_552720c429a74bd786cb528bfa9317e3);
+        
+    
+        var popup_5ed2fa8d352c4305b46119c860fbf98a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96a66c7573834c5f913fcefb10a0db5f = $(`<div id="html_96a66c7573834c5f913fcefb10a0db5f" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;01</h4>  <hr>  <p>Users: 480 <hr>Membros: 78.75%</p> <p>Homens: 92.06% <hr>Idade: 24.0 a 28.0</div>`)[0];
+            popup_5ed2fa8d352c4305b46119c860fbf98a.setContent(html_96a66c7573834c5f913fcefb10a0db5f);
+        
+
+        marker_38e614666bbc428e916b19a3f186cf65.bindPopup(popup_5ed2fa8d352c4305b46119c860fbf98a)
+        ;
+
+        
+    
+    
+            marker_38e614666bbc428e916b19a3f186cf65.bindTooltip(
+                `<div>
+                     ['UW McCarty Hall / Whitman Ct']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d27cddad0854e65b0f20cc6c7dade8c = L.marker(
+                [47.659756, -122.310402],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_627c58a30ada49969de8cdd7111d51ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_4d27cddad0854e65b0f20cc6c7dade8c.setIcon(icon_627c58a30ada49969de8cdd7111d51ee);
+        
+    
+        var popup_723d8160467841f2b126429fc8b2a3f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0055e4a4170c4c1ea6d04cc50e7ce3c6 = $(`<div id="html_0055e4a4170c4c1ea6d04cc50e7ce3c6" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;02</h4>  <hr>  <p>Users: 1689 <hr>Membros: 40.85%</p> <p>Homens: 73.77% <hr>Idade: 23.0 a 39.0</div>`)[0];
+            popup_723d8160467841f2b126429fc8b2a3f2.setContent(html_0055e4a4170c4c1ea6d04cc50e7ce3c6);
+        
+
+        marker_4d27cddad0854e65b0f20cc6c7dade8c.bindPopup(popup_723d8160467841f2b126429fc8b2a3f2)
+        ;
+
+        
+    
+    
+            marker_4d27cddad0854e65b0f20cc6c7dade8c.bindTooltip(
+                `<div>
+                     ['Burke Museum / E Stevens Way NE & Memorial Way NE']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bcad1732a0124919880acf3decacabae = L.marker(
+                [47.655590000000004, -122.31188999999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_ff0152229d83453587ca5f72c52ac415 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_bcad1732a0124919880acf3decacabae.setIcon(icon_ff0152229d83453587ca5f72c52ac415);
+        
+    
+        var popup_692a46924f3540aeb5e14601e364bd2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8b95fb9edd047aebf6f1a1c83c46573 = $(`<div id="html_e8b95fb9edd047aebf6f1a1c83c46573" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;04</h4>  <hr>  <p>Users: 2318 <hr>Membros: 50.39%</p> <p>Homens: 77.31% <hr>Idade: 23.0 a 39.0</div>`)[0];
+            popup_692a46924f3540aeb5e14601e364bd2b.setContent(html_e8b95fb9edd047aebf6f1a1c83c46573);
+        
+
+        marker_bcad1732a0124919880acf3decacabae.bindPopup(popup_692a46924f3540aeb5e14601e364bd2b)
+        ;
+
+        
+    
+    
+            marker_bcad1732a0124919880acf3decacabae.bindTooltip(
+                `<div>
+                     ['15th Ave NE & NE 40th St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7efe0c627f84f16b1901cbca14b0f23 = L.marker(
+                [47.654613, -122.30486299999998],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_607745c97e1b4f7bae71a613f31a8ee9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_b7efe0c627f84f16b1901cbca14b0f23.setIcon(icon_607745c97e1b4f7bae71a613f31a8ee9);
+        
+    
+        var popup_8c87c0a62c724faa9b1d7ea33150e7ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad60f3664b304476b40ef0ddcc5c8799 = $(`<div id="html_ad60f3664b304476b40ef0ddcc5c8799" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;06</h4>  <hr>  <p>Users: 2012 <hr>Membros: 59.54%</p> <p>Homens: 83.14% <hr>Idade: 23.0 a 33.0</div>`)[0];
+            popup_8c87c0a62c724faa9b1d7ea33150e7ad.setContent(html_ad60f3664b304476b40ef0ddcc5c8799);
+        
+
+        marker_b7efe0c627f84f16b1901cbca14b0f23.bindPopup(popup_8c87c0a62c724faa9b1d7ea33150e7ad)
+        ;
+
+        
+    
+    
+            marker_b7efe0c627f84f16b1901cbca14b0f23.bindTooltip(
+                `<div>
+                     ['UW Engineering Library / E Stevens Way NE & Jefferson Rd']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_287074d2240945b19548883d9f38e7b3 = L.marker(
+                [47.653713, -122.30216200000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_97caab3f2c444569a721a8898e07e08b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_287074d2240945b19548883d9f38e7b3.setIcon(icon_97caab3f2c444569a721a8898e07e08b);
+        
+    
+        var popup_f04c0e37b23949978ede08e0e2609ec2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d7b50d6abe54f4c91b49962a7b828d6 = $(`<div id="html_6d7b50d6abe54f4c91b49962a7b828d6" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;07</h4>  <hr>  <p>Users: 1542 <hr>Membros: 47.28%</p> <p>Homens: 82.99% <hr>Idade: 24.0 a 49.0</div>`)[0];
+            popup_f04c0e37b23949978ede08e0e2609ec2.setContent(html_6d7b50d6abe54f4c91b49962a7b828d6);
+        
+
+        marker_287074d2240945b19548883d9f38e7b3.bindPopup(popup_f04c0e37b23949978ede08e0e2609ec2)
+        ;
+
+        
+    
+    
+            marker_287074d2240945b19548883d9f38e7b3.bindTooltip(
+                `<div>
+                     ['UW Intramural Activities Building']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fed72ea2db5f450cab23b0aa971f201f = L.marker(
+                [47.650725, -122.31118799999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_2574ae1399aa456e820e11c691dc7228 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_fed72ea2db5f450cab23b0aa971f201f.setIcon(icon_2574ae1399aa456e820e11c691dc7228);
+        
+    
+        var popup_7546815b20a142c1bb1d74c8bac6af83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dabd1973fa2347ee9b81b31bb99b6a26 = $(`<div id="html_dabd1973fa2347ee9b81b31bb99b6a26" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;10</h4>  <hr>  <p>Users: 1160 <hr>Membros: 45.78%</p> <p>Homens: 60.64% <hr>Idade: 24.0 a 43.0</div>`)[0];
+            popup_7546815b20a142c1bb1d74c8bac6af83.setContent(html_dabd1973fa2347ee9b81b31bb99b6a26);
+        
+
+        marker_fed72ea2db5f450cab23b0aa971f201f.bindPopup(popup_7546815b20a142c1bb1d74c8bac6af83)
+        ;
+
+        
+    
+    
+            marker_fed72ea2db5f450cab23b0aa971f201f.bindTooltip(
+                `<div>
+                     ['UW Magnuson Health Sciences Center Rotunda / Columbia Rd & San Juan Rd']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d31835700ef47bea781d6c86990cdf7 = L.marker(
+                [47.614315000000005, -122.35409299999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_ad153268620e4d678b9eb054279ec73e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_6d31835700ef47bea781d6c86990cdf7.setIcon(icon_ad153268620e4d678b9eb054279ec73e);
+        
+    
+        var popup_76a499f2f0334b479677cf951652249d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8bfdbba70904d3e92eeaaeadc6ed11d = $(`<div id="html_c8bfdbba70904d3e92eeaaeadc6ed11d" style="width: 100.0%; height: 100.0%;"><h4>WF&#8209;01</h4>  <hr>  <p>Users: 11274 <hr>Membros: 29.48%</p> <p>Homens: 59.9% <hr>Idade: 23.0 a 56.0</div>`)[0];
+            popup_76a499f2f0334b479677cf951652249d.setContent(html_c8bfdbba70904d3e92eeaaeadc6ed11d);
+        
+
+        marker_6d31835700ef47bea781d6c86990cdf7.bindPopup(popup_76a499f2f0334b479677cf951652249d)
+        ;
+
+        
+    
+    
+            marker_6d31835700ef47bea781d6c86990cdf7.bindTooltip(
+                `<div>
+                     ['Pier 69 / Alaskan Way & Clay St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e1b68dc732b40609f312264f3e601ea = L.marker(
+                [47.607702, -122.34165],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_7837ffd5e3674b699ff83f00a3e0394a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_3e1b68dc732b40609f312264f3e601ea.setIcon(icon_7837ffd5e3674b699ff83f00a3e0394a);
+        
+    
+        var popup_88738292b85d4a14b6025a5f07493e84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adad8c9616d74b5a8296d9bd450d84c1 = $(`<div id="html_adad8c9616d74b5a8296d9bd450d84c1" style="width: 100.0%; height: 100.0%;"><h4>WF&#8209;04</h4>  <hr>  <p>Users: 5385 <hr>Membros: 15.23%</p> <p>Homens: 63.78% <hr>Idade: 23.0 a 57.0</div>`)[0];
+            popup_88738292b85d4a14b6025a5f07493e84.setContent(html_adad8c9616d74b5a8296d9bd450d84c1);
+        
+
+        marker_3e1b68dc732b40609f312264f3e601ea.bindPopup(popup_88738292b85d4a14b6025a5f07493e84)
+        ;
+
+        
+    
+    
+            marker_3e1b68dc732b40609f312264f3e601ea.bindTooltip(
+                `<div>
+                     ['Seattle Aquarium / Alaskan Way S & Elliott Bay Trail']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f05f62e5e6ca4f0284856b036e7c9f64 = L.marker(
+                [47.61863956, -122.32077690000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_290d1b6e19474769af6c7a34f381d608 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_f05f62e5e6ca4f0284856b036e7c9f64.setIcon(icon_290d1b6e19474769af6c7a34f381d608);
+        
+    
+        var popup_758921d088f04d95aa9a6fc6c726c2be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed3a61dbc5bf4fc2945043fb537d8f76 = $(`<div id="html_ed3a61dbc5bf4fc2945043fb537d8f76" style="width: 100.0%; height: 100.0%;"><h4>CH&#8209;16</h4>  <hr>  <p>Users: 1288 <hr>Membros: 73.21%</p> <p>Homens: 73.17% <hr>Idade: 24.0 a 42.0</div>`)[0];
+            popup_758921d088f04d95aa9a6fc6c726c2be.setContent(html_ed3a61dbc5bf4fc2945043fb537d8f76);
+        
+
+        marker_f05f62e5e6ca4f0284856b036e7c9f64.bindPopup(popup_758921d088f04d95aa9a6fc6c726c2be)
+        ;
+
+        
+    
+    
+            marker_f05f62e5e6ca4f0284856b036e7c9f64.bindTooltip(
+                `<div>
+                     ['Broadway and E Denny Way']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce1a1977a6ee4b93b51175400ab5dc85 = L.marker(
+                [47.62087853, -122.34737690000001],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_2c1c75caeb6c4b7582cb03fe07fe6575 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_ce1a1977a6ee4b93b51175400ab5dc85.setIcon(icon_2c1c75caeb6c4b7582cb03fe07fe6575);
+        
+    
+        var popup_c2cb6b2b5f7445e99a6d49e9f9d40166 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0f3dc055f6c443db60c43120ea77a5c = $(`<div id="html_b0f3dc055f6c443db60c43120ea77a5c" style="width: 100.0%; height: 100.0%;"><h4>SLU&#8209;22</h4>  <hr>  <p>Users: 761 <hr>Membros: 13.14%</p> <p>Homens: 77.0% <hr>Idade: 24.0 a 37.5</div>`)[0];
+            popup_c2cb6b2b5f7445e99a6d49e9f9d40166.setContent(html_b0f3dc055f6c443db60c43120ea77a5c);
+        
+
+        marker_ce1a1977a6ee4b93b51175400ab5dc85.bindPopup(popup_c2cb6b2b5f7445e99a6d49e9f9d40166)
+        ;
+
+        
+    
+    
+            marker_ce1a1977a6ee4b93b51175400ab5dc85.bindTooltip(
+                `<div>
+                     ['Thomas St & 5th Ave N']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26fea3d66bfa4ec9a10fa4ba0073b0ce = L.marker(
+                [47.64995155, -122.3062634],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_591db3570904442c9a29babb5c7a2f30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_26fea3d66bfa4ec9a10fa4ba0073b0ce.setIcon(icon_591db3570904442c9a29babb5c7a2f30);
+        
+    
+        var popup_1043786bb7fa4a2f8c3cb281cd3cd37c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38764c9d2075467797e611f16922def3 = $(`<div id="html_38764c9d2075467797e611f16922def3" style="width: 100.0%; height: 100.0%;"><h4>UW&#8209;11</h4>  <hr>  <p>Users: 988 <hr>Membros: 67.51%</p> <p>Homens: 59.82% <hr>Idade: 24.0 a 44.0</div>`)[0];
+            popup_1043786bb7fa4a2f8c3cb281cd3cd37c.setContent(html_38764c9d2075467797e611f16922def3);
+        
+
+        marker_26fea3d66bfa4ec9a10fa4ba0073b0ce.bindPopup(popup_1043786bb7fa4a2f8c3cb281cd3cd37c)
+        ;
+
+        
+    
+    
+            marker_26fea3d66bfa4ec9a10fa4ba0073b0ce.bindTooltip(
+                `<div>
+                     ['NE Pacific St/UW Medical Center']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2e4e1a44ef64de093f0a195072519fc = L.marker(
+                [47.61137028, -122.34870149999999],
+                {"encoding": "utf-8"}
+            ).addTo(map_5864b992743b4a58b1e6da858578535f);
+        
+    
+            var icon_9135f7976cae4fb78fb0a734b8467460 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d2e4e1a44ef64de093f0a195072519fc.setIcon(icon_9135f7976cae4fb78fb0a734b8467460);
+        
+    
+        var popup_d323155a75bb4246b7106472af6f70e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4618a4a7f1d4fd3ae02dcd30055e606 = $(`<div id="html_e4618a4a7f1d4fd3ae02dcd30055e606" style="width: 100.0%; height: 100.0%;"><h4>WF&#8209;03</h4>  <hr>  <p>Users: 160 <hr>Membros: 18.12%</p> <p>Homens: 37.93% <hr>Idade: 24.0 a 57.0</div>`)[0];
+            popup_d323155a75bb4246b7106472af6f70e6.setContent(html_e4618a4a7f1d4fd3ae02dcd30055e606);
+        
+
+        marker_d2e4e1a44ef64de093f0a195072519fc.bindPopup(popup_d323155a75bb4246b7106472af6f70e6)
+        ;
+
+        
+    
+    
+            marker_d2e4e1a44ef64de093f0a195072519fc.bindTooltip(
+                `<div>
+                     ['Pier 66 / Alaskan Way & Bell St']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
